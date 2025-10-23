@@ -1,0 +1,38 @@
+---
+title: "assignment-615-cleaning-data"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+```
+
+## Data Upload
+
+```{r}
+Strawberry <- read.csv("D:/R_Git/Strawberry-Assignment/1583F9B0-866A-3858-8AC9-7E9F576AEE9F.csv")
+#Strawberry <- read.csv("E:/browserdownload/8DF4112D-1042-310B-9960-40D52F9B6345.csv")
+glimpse(Strawberry)
+```
+
+##Data Cleaning
+
+```{r}
+threshold <- 0.001
+Strawberry <- Strawberry[, colMeans(is.na(Strawberry)) < threshold]
+glimpse(Strawberry)
+```
+
+```{r}
+Strawberry_split<-Strawberry%>% 
+  filter(grepl('HERBICIDE',Domain,ignore.case = TRUE))
+Strawberry_split_1<-Strawberry_split%>%
+  select(-Domain,-Geo.Level)
+  
+```
+```{r}
+strawberry_split_1 <- Strawberry_split_1 %>%
+  separate(col = Data.item, into = c("Commodity","Chemical","Action","Unit"), sep = ",\\s*", fill = "right")
+```
+
