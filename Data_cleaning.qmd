@@ -12,27 +12,74 @@ library(tidyverse)
 
 ```{r}
 Strawberry <- read.csv("D:/R_Git/Strawberry-Assignment/1583F9B0-866A-3858-8AC9-7E9F576AEE9F.csv")
-#Strawberry <- read.csv("E:/browserdownload/8DF4112D-1042-310B-9960-40D52F9B6345.csv")
 glimpse(Strawberry)
+
 ```
 
 ##Data Cleaning
 
 ```{r}
-threshold <- 0.001
-Strawberry <- Strawberry[, colMeans(is.na(Strawberry)) < threshold]
-glimpse(Strawberry)
+## remove columns with a single value in all rows
+
+#|label: function def - drop 1-item columns
+
+drop_one_value_col <- function(df){   ## takes whole dataframe
+
+drop <- NULL  
+
+## test each column for a single value
+
+for(i in 1:dim(df)[2]){     
+
+if((df |> distinct(df[,i]) |> count()) == 1){
+
+drop = c(drop, i)
+
+} }
+
+## report the result -- names of columns dropped
+
+## consider using the column content for labels 
+
+## or headers 
+
+if(is.null(drop)){return("none")}else{
+
+   print("Columns dropped:")
+
+   print(colnames(df)[drop])
+
+   strawberry<- df[, -1*drop]
+
+   }
+
+}
+
+
+## use the function
+
+Strawberry_clean1 <- drop_one_value_col(Strawberry)
+
+drop_one_value_col(Strawberry)
+ 
 ```
 
 ```{r}
-Strawberry_split<-Strawberry%>% 
-  filter(grepl('HERBICIDE',Domain,ignore.case = TRUE))
-Strawberry_split_1<-Strawberry_split%>%
-  select(-Domain,-Geo.Level)
-  
+
+Strawberry_clean1$Domain.Category<- sub(".*:", "", Strawberry_clean1$Domain.Category)
+Strawberry_clean1$Data.Item<- sub(".*-", "", Strawberry_clean1$Data.Item)
+Strawberry_clean1$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean1$Domain.Category))
+Strawberry_clean1$Data.Item <- trimws(sub(".*:", "", Strawberry_clean1$Data.Item))
 ```
+
 ```{r}
-strawberry_split_1 <- Strawberry_split_1 %>%
-  separate(col = Data.item, into = c("Commodity","Chemical","Action","Unit"), sep = ",\\s*", fill = "right")
+Strawberry_clean1$Data.Item <- as.character(Strawberry_clean1$Data.Item)
+strawberry_wide <- Strawberry_clean1 %>%
+  pivot_wider(
+    names_from = Data.Item,
+    values_from = Data.Item,
+  )
 ```
+
+
 
