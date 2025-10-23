@@ -65,20 +65,24 @@ drop_one_value_col(Strawberry)
 ```
 
 ```{r}
-
-Strawberry_clean1$Domain.Category<- sub(".*:", "", Strawberry_clean1$Domain.Category)
-Strawberry_clean1$Data.Item<- sub(".*-", "", Strawberry_clean1$Data.Item)
 Strawberry_clean1$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean1$Domain.Category))
 Strawberry_clean1$Data.Item <- trimws(sub(".*:", "", Strawberry_clean1$Data.Item))
 ```
 
 ```{r}
 Strawberry_clean1$Data.Item <- as.character(Strawberry_clean1$Data.Item)
-strawberry_wide <- Strawberry_clean1 %>%
-  pivot_wider(
+Strawberry_clean2 <- Strawberry_clean1 %>%
+  mutate(Domain = str_c(Domain, Domain.Category, sep = ":")) %>%
+  select(-Domain.Category)
+strawberry_wide <- Strawberry_clean2 %>%
+  pivot_wider(id_cols = c(Program, Year, State, Domain),
     names_from = Data.Item,
-    values_from = Data.Item,
+    values_from = Value,
   )
+Strawberry_clean2 %>%
+  group_by(Program, Year, State, Domain, Data.Item) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  filter(n > 1)
 ```
 
 
