@@ -68,7 +68,7 @@ drop_one_value_col(Strawberry)
 Strawberry_clean1$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean1$Domain.Category))
 Strawberry_clean1$Data.Item <- trimws(sub(".*-", "", Strawberry_clean1$Data.Item))
 Strawberry_clean1$Value <- ifelse(Strawberry_clean1$Value %in% c(" (NA)"),
-                                  NA,Strawberry_clean2$Value)
+                                  NA,Strawberry_clean1$Value)
 Strawberry_clean2<- Strawberry_clean1 %>%
   filter(grepl("HERB", Domain, ignore.case = TRUE))
 
