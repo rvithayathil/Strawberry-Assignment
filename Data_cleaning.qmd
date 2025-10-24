@@ -71,6 +71,8 @@ Strawberry_clean1$Data.Item <- trimws(sub(".*-", "", Strawberry_clean1$Data.Item
 
 ```{r}
 Strawberry_clean1$Data.Item <- as.character(Strawberry_clean1$Data.Item)
+Strawberry_clean1$Value <- ifelse(Strawberry_clean1$Value %in% c(" (NA)"),
+                                  NA,Strawberry_clean2$Value)
 Strawberry_clean2 <- Strawberry_clean1 %>%
   mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
   select(-Domain.Category)
