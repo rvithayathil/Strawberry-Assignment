@@ -11,7 +11,7 @@ library(tidyverse)
 ## Data Upload
 
 ```{r}
-Strawberry <- read.csv("D:/R_Git/Strawberry-Assignment/1583F9B0-866A-3858-8AC9-7E9F576AEE9F.csv")
+Strawberry <- read.csv("1583F9B0-866A-3858-8AC9-7E9F576AEE9F.csv")
 glimpse(Strawberry)
 
 ```
@@ -77,12 +77,7 @@ Strawberry_clean2 <- Strawberry_clean2 %>%
   select(-Domain.Category)
 ```
 
-```{r} 
-Strawberry_clean2 %>%
-  group_by(Program, Year, State, Domain, Data.Item) %>%
-  summarise(n = n(), .groups = "drop") %>%
-  filter(n > 1)
-
+```{r}
 Strawberry_clean2_summarised <- Strawberry_clean2 %>%
   group_by(Program, Year, State, Domain, Data.Item) %>%
   summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
@@ -92,7 +87,13 @@ strawberry_wide <- Strawberry_clean2_summarised %>%
     id_cols = c(Program, Year, State, Domain),
     names_from = Data.Item,
     values_from = Value)
+
 ```
 
 
+```{r}
+write.csv(Strawberry_clean1, "Strawberry_clean1.csv", row.names = FALSE)
+write.csv(Strawberry_clean2, "Strawberry_clean2.csv", row.names = FALSE)
+write.csv(strawberry_wide, "strawberry_wide.csv", row.names = FALSE)
+```
 
