@@ -1,0 +1,109 @@
+---
+title: "Strawberry-data cleaning"
+author: "Shuxin Qian, Rebecca Vithayathil, Bihong Wang"
+format:
+  html:
+    self-contained: true
+    fig-format: png     
+    embed-resources: true
+editor: visual
+---
+
+```{r,warning=FALSE,message=FALSE}
+library(tidyverse)
+library(slider)
+```
+
+# Data
+
+## Data Upload
+
+We will have an overview summary and few explanation for the data set in the final version. The data is from <https://quickstats.nass.usda.gov/>
+
+```{r}
+Strawberry <- read.csv("USDA_Herbicide_Raw_Data.csv")
+glimpse(Strawberry)
+```
+
+## Data Cleaning
+
+We first organized the data set downloaded directly from the website by removing columns that contained only a single unique value. This step eliminates meaningless constants and keeps only variables that provide useful distinctions.
+
+Next, we cleaned and standardized several data names, and created new variables to facilitate later comparisons. We then grouped the large and complex dataset so that for each state, each year, and each type of herbicide, only one representative value was retained.
+
+Finally, we transformed the cleaned data into a structured table format, making it easier to review and to use in subsequent coding and analysis.
+
+```{r}
+# drop columns that have only a single distinct value
+drop_one_value_col <- function(df) {
+  keep <- vapply(df, function(x) dplyr::n_distinct(x, na.rm = FALSE) > 1, logical(1))
+  df[, keep, drop = FALSE]
+}
+
+Strawberry_clean1 <- drop_one_value_col(Strawberry)
+
+Strawberry_clean1$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean1$Domain.Category))
+Strawberry_clean1$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean1$Data.Item))
+Strawberry_clean1$Value <- ifelse(Strawberry_clean1$Value %in% c(" (NA)"), NA, Strawberry_clean1$Value)
+
+Strawberry_clean2 <- Strawberry_clean1 %>%
+  filter(grepl("HERB", Domain, ignore.case = TRUE)) %>%
+  mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
+  select(-Domain.Category)
+
+Strawberry_clean2_summarised <- Strawberry_clean2 %>%
+  group_by(Program, Year, State, Domain, Data.Item) %>%
+  summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
+
+strawberry_wide <- Strawberry_clean2_summarised %>%
+  tidyr::pivot_wider(
+    id_cols = c(Program, Year, State, Domain),
+    names_from = Data.Item,
+    values_from = Value
+  )
+```
+
+To facilitate analysis, we identified the years (1990 and later) in which certain U.S. states had both herbicide data and organic data, and organized the results into a clear summary table.
+
+```{r}
+## Keep ONLY years with BOTH Herbicide & Organic data (1990+)
+states_both <- tibble(Year = 1990:max(as.integer(c(strawberry_wide$Year, Strawberry$Year)), na.rm = TRUE)) %>%
+  left_join(
+    strawberry_wide %>%
+      mutate(Year = suppressWarnings(as.integer(Year))) %>%
+      filter(!is.na(Year), nzchar(State)) %>%
+      group_by(Year) %>% summarise(h = list(sort(unique(State))), .groups = "drop"),
+    by = "Year"
+  ) %>%
+  left_join(
+    Strawberry %>%
+      filter(grepl("ORGANIC STATUS", Domain, ignore.case = TRUE)) %>%
+      mutate(Year = suppressWarnings(as.integer(Year))) %>%
+      filter(!is.na(Year), nzchar(State)) %>%
+      group_by(Year) %>% summarise(o = list(sort(unique(State))), .groups = "drop"),
+    by = "Year"
+  ) %>%
+  mutate(both = purrr::map2(h, o, ~{
+    a <- if (is.null(.x)) character(0) else .x
+    b <- if (is.null(.y)) character(0) else .y
+    sort(intersect(a, b))
+  })) %>%
+  filter(lengths(both) > 0) %>%
+  transmute(
+    Year,
+    `States with both` = purrr::map_chr(both, ~ paste(.x, collapse = ", "))
+  ) %>%
+  arrange(Year)
+
+states_both
+```
+
+```{r}
+write.csv(Strawberry_clean1, "Strawberry_clean1.csv", row.names = FALSE)
+write.csv(Strawberry_clean2, "Strawberry_clean2.csv", row.names = FALSE)
+write.csv(strawberry_wide, "strawberry_wide.csv", row.names = FALSE)
+write.csv(states_both, "states_both.csv", row.names = FALSE)
+
+```
+
+# 
