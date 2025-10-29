@@ -22,14 +22,12 @@ Filtered observations where Domain contained "HERB".
 
 Combined Domain and Domain.Category into one field for easier filtering.
 
-Removed missing or suppressed values (e.g., (NA), (D), (L)).
-
 Saved cleaned data as USDA_Herbicide_Data.csv.
 
 Key Variables:
 
 | Variable | Description |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Program** | The USDA data collection program (e.g., “CENSUS”, “SURVEY”). |
 | **Year** | The year in which the data were collected. |
 | **State** | The U.S. state where data were collected. |

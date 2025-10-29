@@ -56,7 +56,7 @@ Strawberry_clean2_summarised <- Strawberry_clean2 %>%
   summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
 
 strawberry_wide <- Strawberry_clean2_summarised %>%
-  tidyr::pivot_wider(
+  pivot_wider(
     id_cols = c(Program, Year, State, Domain),
     names_from = Data.Item,
     values_from = Value
