@@ -4,13 +4,13 @@ format: html
 editor: visual
 ---
 
-```{r}
+```{r Libraries}
 library(tidyverse)
 ```
 
 ## Data Upload
 
-```{r}
+```{r Load Data}
 Strawberry <- read.csv("D:/R_Git/Strawberry-Assignment/1583F9B0-866A-3858-8AC9-7E9F576AEE9F.csv")
 glimpse(Strawberry)
 
@@ -77,7 +77,7 @@ Strawberry_clean2 <- Strawberry_clean2 %>%
   select(-Domain.Category)
 ```
 
-```{r} 
+```{r}
 Strawberry_clean2 %>%
   group_by(Program, Year, State, Domain, Data.Item) %>%
   summarise(n = n(), .groups = "drop") %>%
@@ -93,6 +93,3 @@ strawberry_wide <- Strawberry_clean2_summarised %>%
     names_from = Data.Item,
     values_from = Value)
 ```
-
-
-
