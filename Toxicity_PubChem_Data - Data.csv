@@ -1,0 +1,207 @@
+Herbicide ID,Herbicide Name,Toxicity 1,Toxicity 2,Toxicity 3,Toxicity 4,Toxicity 5,Additional Info,Assigned To
+12701,"CHEMICAL, HERBICIDE: (TERBACIL = 12701)",Irritant,Environmental Hazard,,,,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+24409,"CHEMICAL, HERBICIDE: (COPPER ETHANOLAMINE = 24409)",Irritant,Corrosive,,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312: Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H314: Causes severe skin burns and eye damage [Danger Skin corrosion/irritation]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]",Jeremey
+25501,"CHEMICAL, HERBICIDE: (CHLOROXURON = 25501)",Irritant,Environmental Hazard,,,,"H332 (55.7%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H400 (95.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (40%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+30001,"CHEMICAL, HERBICIDE: (2,4-D = 30001)",Irritant,Corrosive,,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+30019,"CHEMICAL, HERBICIDE: (2,4-D, DIMETH. SALT = 30019)",Irritant,Corrosive,Environmental Hazard,,,"H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312 (18.6%): Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H317 (100%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318 (100%): Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H332 (18.6%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H410 (35.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H411 (64.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+30035,"CHEMICAL, HERBICIDE: (2,4-D, TRIISO. SALT = 30035)",Irritant,Corrosive,Environmental Hazard,,,"H302 (72.8%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317 (72.8%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318 (72.8%): Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411 (72.8%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+31802,"CHEMICAL, HERBICIDE: (AMMONIUM PELARGONATE = 31802)",Irritant,,,,,"H315: Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+35505,"CHEMICAL, HERBICIDE: (DIURON = 35505)",Health Hazard,Environmental Hazard,,,,"H350: May cause cancer [Danger Carcinogenicity]
+
+H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+36601,"CHEMICAL, HERBICIDE: (DIPHENAMID = 36601)",Irritant,,,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+61601,"CHEMICAL, HERBICIDE: (PARAQUAT = 61601)",Corrosive, Acute Toxic,Health Hazard,Environmental Hazard,,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+78701,"CHEMICAL, HERBICIDE: (DCPA = 78701)",,,,,,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website.",Jeremey
+79701,"CHEMICAL, HERBICIDE: (CYCLOHEXENE = 79701)",Irritant, Acute Toxic,Health Hazard,Environmental Hazard,Flammable,"H225 (100%): Highly Flammable liquid and vapor [Danger Flammable liquids]
+
+H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H304 (95.2%): May be fatal if swallowed and enters airways [Danger Aspiration hazard]
+
+H311 (39.4%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H411 (57.7%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+80807,"CHEMICAL, HERBICIDE: (SIMAZINE = 80807)",Health Hazard,Environmental Hazard,,,,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+101101,"CHEMICAL, HERBICIDE: (METRIBUZIN = 101101)",Irritant,Health Hazard,Environmental Hazard,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+103001,"CHEMICAL, HERBICIDE: (NAPROPAMIDE = 103001)",Irritant,Environmental Hazard,,,,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+103601,"CHEMICAL, HERBICIDE: (GLYPHOSATE ISO. SALT = 103601)",Environmental Hazard,,,,,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+103613,"CHEMICAL, HERBICIDE: (GLYPHOSATE POT. SALT = 103613)",Environmental Hazard,,,,,"H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Jeremey
+104201,"CHEMICAL, HERBICIDE: (ORYZALIN = 104201)",Irritant,Environmental Hazard,,,,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+108501,"CHEMICAL, HERBICIDE: (PENDIMETHALIN = 108501)",Health Hazard,Environmental Hazard,,,,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Jeremey
+108800,"CHEMICAL, HERBICIDE: (108800 = 108800)",Irritant,,,,,"H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (100%): Harmful if inhaled [Warning Acute toxicity, inhalation]",Bihong
+111601,"CHEMICAL, HERBICIDE: (OXYFLUORFEN = 111601)",Environmental Hazard,,,,,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+117401,"CHEMICAL, HERBICIDE: (CLOPYRALID MONO SALT = 117401)",Irritant,Environmental Hazard,,,,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+117403,"CHEMICAL, HERBICIDE: (CLOPYRALID = 117403)",Corrosive,,,,,H318: Causes serious eye damage [Danger Serious eye damage/eye irritation],Bihong
+119031,"CHEMICAL, HERBICIDE: (PENOXSULAM = 119031)",Environmental Hazard,,,,,"H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+121001,"CHEMICAL, HERBICIDE: (SETHOXYDIM = 121001)",Environmental Hazard,,,,,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Bihong
+121011,"CHEMICAL, HERBICIDE: (CLETHODIM = 121011)",Irritant,,,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Bihong
+122010,"CHEMICAL, HERBICIDE: (METSULFURON-METHYL = 122010)",Environmental Hazard,,,,,"H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+122809,"CHEMICAL, HERBICIDE: (FLUAZIFOP-P-BUTYL = 122809)",Health Hazard,Environmental Hazard,,,,"H361d ***: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+125401,"CHEMICAL, HERBICIDE: (CLOMAZONE = 125401)",Irritant,Environmental Hazard,,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+128712,"CHEMICAL, HERBICIDE: (CARFENTRAZONE-ETHYL = 128712)",Environmental Hazard,,,,,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+128721,"CHEMICAL, HERBICIDE: (HALOSULFURON-METHYL = 128721)",Health Hazard,Environmental Hazard,,,,"H360D: May damage the unborn child [Danger Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+128850,"CHEMICAL, HERBICIDE: (GLUFOSINATE-AMMONIUM = 128850)",Irritant,Health Hazard,,,,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312: Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H360Fd: May damage fertility; Suspected of damaging the unborn child [Danger Reproductive toxicity]
+
+H373 **: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]",Bihong
+128968,"CHEMICAL, HERBICIDE: (FLUROXYPYR 1-MHE = 128968)",Environmental Hazard,,,,,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Bihong
+129034,"CHEMICAL, HERBICIDE: (FLUMIOXAZIN = 129034)",Health Hazard,Environmental Hazard,,,,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+129051,"CHEMICAL, HERBICIDE: (DIMETHENAMID = 129051)",Irritant,Environmental Hazard,,,,"H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317 (71.2%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H332 (71.2%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H400 (71.2%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (71.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H411 (26.7%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Bihong
+129081,"CHEMICAL, HERBICIDE: (SULFENTRAZONE = 129081)",Irritant,Environmental Hazard,,Health Hazard,,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Bihong
+129108,"CHEMICAL, HERBICIDE: (KANTOR = 129108)",Environmental Hazard,,,,,"H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]",Bihong
+417300,"CHEMICAL, HERBICIDE: (GLYPHOSATE = 417300)",Corrosive,Environmental Hazard,,,,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]",Bihong
