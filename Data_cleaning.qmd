@@ -8,15 +8,15 @@ editor: visual
 library(tidyverse)
 ```
 
-## Data Load
+## Data Load and Cleaning
 
-```{r Load Data}
+### USDA Herbicide 
+
+```{r Load Data USDA Herbicide}
 Strawberry <- read.csv("https://raw.githubusercontent.com/rvithayathil/Strawberry-Assignment/refs/heads/Data/USDA_Herbicide_Raw_Data.csv")
 glimpse(Strawberry)
 
 ```
-
-## Data Cleaning
 
 ```{r Drop Cols}
 ## Create Function remove columns with a single value in all rows
@@ -24,9 +24,12 @@ drop_one_value_col <- function(df) {
   keep <- vapply(df, function(x) dplyr::n_distinct(x, na.rm = FALSE) > 1, logical(1))
   df[, keep, drop = FALSE]
 }
-
+# Implement drop column Function
 Strawberry_clean <- drop_one_value_col(Strawberry)
 
+```
+
+```{r column cleaning and filtering}
 Strawberry_clean$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean$Domain.Category))
 Strawberry_clean$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean$Data.Item))
 Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Strawberry_clean$Value)
@@ -131,3 +134,43 @@ states_both <- tibble(Year = 1990:max(as.integer(c(strawberry_wide$Year, Strawbe
 
 states_both
 ```
+
+```{r USDA State Level Facts}
+
+```
+
+### PubChem Toxicity
+
+```{r Load Toxicity PubChem Data}
+Toxicity <- read.csv("https://raw.githubusercontent.com/rvithayathil/Strawberry-Assignment/refs/heads/Data/Toxicity_PubChem_Raw_Data%20-%20Data.csv")
+head(Toxicity)
+```
+
+```{r}
+# Create binary columns for each toxicity type
+formatted_Toxicity <- Toxicity %>%
+  mutate(
+    # Combine all toxicity columns into one for searching
+    all_toxicity = paste(`Toxicity.1`, `Toxicity.2`, `Toxicity.3`,
+                        `Toxicity.4`, `Toxicity.5`, sep = " "),
+    
+    # Create binary indicators
+    `Acute Toxic` = if_else(str_detect(all_toxicity, "Acute"), 1, NA_real_),
+    Corrosive = if_else(str_detect(all_toxicity, "Corrosive"), 1, NA_real_),
+    `Environmental Hazard` = if_else(str_detect(all_toxicity, "Environmental"), 1, NA_real_),
+    Flammable = if_else(str_detect(all_toxicity, "Flammable"), 1, NA_real_),
+    `Health Hazard` = if_else(str_detect(all_toxicity, "Health"), 1, NA_real_),
+    Irritant = if_else(str_detect(all_toxicity, "Irritant"), 1, NA_real_)
+  ) %>%
+  # Select and arrange columns
+  select(`Herbicide.ID`, `Acute Toxic`, Corrosive, `Environmental Hazard`,
+         Flammable, `Health Hazard`, Irritant, `Additional.Info`)
+
+```
+
+```{r}
+head(formatted_Toxicity)
+formatted_Toxicity %>% 
+  filter(`Herbicide.ID` == "79701")
+```
+

@@ -14,7 +14,7 @@ library(tidyverse)
 library(slider)
 ```
 
-# Introduction 
+# Introduction
 
 This project aims to examine the use of herbicides across different U.S. states and their regional distribution patterns. The goal is to identify regional patterns and differences in herbicide application practices, and to explore the relationship between farming type and agricultural land use.
 
@@ -108,7 +108,7 @@ states_both <- tibble(Year = 1990:max(as.integer(c(strawberry_wide$Year, Strawbe
 states_both
 ```
 
-# Exploratory Data Analysis 
+# Exploratory Data Analysis
 
 ### Helpers
 
@@ -251,11 +251,10 @@ ggplot(panel, aes(organic_share_pct_roll3, coverage_pct_roll3, color = State)) +
 **Figure 4: Organic Share vs. Herbicide Coverage (3-Year Centered – Relaxed Window)**
 
 **Advantage:**\
-By applying a centered window of [t−1,t,t+1][t-1, t, t+1]\[t−1,t,t+1\] and allowing missing values (*min_periods = 1*), the number of valid observations increases to 31, significantly improving the overlap between the two datasets.
+By applying a centered window of \[t−1,t,t+1\]\[t-1, t, t+1\]\[t−1,t,t+1\] and allowing missing values (*min_periods = 1*), the number of valid observations increases to 31, significantly improving the overlap between the two datasets.
 
 **Directional patterns:**\
-Most states (3) show a **negative correlation**—higher organic share corresponds to lower herbicide coverage in conventional areas.
-A few states (1) exhibit a **positive correlation**, where an increase in organic share coincides with higher coverage rates.
+Most states (3) show a **negative correlation**—higher organic share corresponds to lower herbicide coverage in conventional areas. A few states (1) exhibit a **positive correlation**, where an increase in organic share coincides with higher coverage rates.
 
 **Conclusion(draft):**\
 Within the limits of currently available data, this rolling-window approach reveals that in most states, **the rise in organic farming share is accompanied by a decline in conventional herbicide coverage**, though notable exceptions exist.
