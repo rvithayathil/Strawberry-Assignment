@@ -7,6 +7,7 @@ editor: visual
 
 ```{r Libraries}
 library(tidyverse)
+library(dplyr)
 ```
 
 ## Data Load and Cleaning
@@ -17,7 +18,7 @@ The data is from:
 
 <https://pubchem.ncbi.nlm.nih.gov> - Toxicity information
 
-We first organized the data set downloaded directly from the website by removing columns that contained only a single unique value. This step eliminates meaningless constants and keeps only variables that provide useful distinctions.
+We first organized the data set downloaded directly from the USDA website by removing columns that contained only a single unique value. This step eliminates meaningless constants and keeps only variables that provide useful distinctions.
 
 Next, we cleaned and standardized several data names, and created new variables to facilitate later comparisons. We then grouped the large and complex dataset so that for each state, each year, and each type of herbicide, only one representative value was retained.
 
@@ -43,8 +44,13 @@ Strawberry_clean <- drop_one_value_col(Strawberry)
 ```
 
 ```{r column cleaning and filtering}
+
+#Clean Domain.Category to get Chemical Name, Example: "CHEMICAL: GLYPHOSATE" → "GLYPHOSATE"
 Strawberry_clean$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean$Domain.Category))
+
+#Clean Data.Item, Example: "STRAWBERRY - APPLICATIONS" → "APPLICATIONS"
 Strawberry_clean$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean$Data.Item))
+# Replaces Text NAs with actual NAs
 Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Strawberry_clean$Value)
 
 # Filter for rows with Herbicide Information
@@ -52,7 +58,10 @@ Strawberry_clean <- Strawberry_clean %>%
   filter(grepl("HERB", Domain, ignore.case = TRUE)) %>%
   mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
   select(-Domain.Category)
+head(Strawberry_clean)
+```
 
+```{r}
 Strawberry_clean <- Strawberry_clean %>%
   group_by(Program, Year, State, Domain, Data.Item) %>%
   summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
@@ -81,21 +90,6 @@ head(strawberry_wide)
 num_rows <- nrow(strawberry_wide)
 # Print the result
 cat("# of Rows strawberry_wide:", num_rows, "\n")
-
-
-```
-
-```{r}
-Strawberry_clean1$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean1$Domain.Category))
-Strawberry_clean1$Data.Item <- trimws(sub(".*-", "", Strawberry_clean1$Data.Item))
-Strawberry_clean1$Value <- ifelse(Strawberry_clean1$Value %in% c(" (NA)"),
-                                  NA,Strawberry_clean1$Value)
-Strawberry_clean2<- Strawberry_clean1 %>%
-  filter(grepl("HERB", Domain, ignore.case = TRUE))
-
-Strawberry_clean2 <- Strawberry_clean2 %>%
-  mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
-  select(-Domain.Category)
 ```
 
 ```{r}
