@@ -62,15 +62,24 @@ Strawberry_clean$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean$Data.
 # Replaces Text NAs with actual NAs
 Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Strawberry_clean$Value)
 
+unique(Strawberry_clean$Domain.Category)
+unique(Strawberry_clean$Data.Item)
+head(Strawberry_clean)
 ```
 
 ```{r Just Herbicide Data}
 # Filter for rows with Herbicide Information
 Strawberry_clean <- Strawberry_clean %>%
-  filter(grepl("HERB", Domain, ignore.case = TRUE)) %>%
-  mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
-  select(-Domain.Category)
+  filter(grepl("HERB", Domain, ignore.case = TRUE)) #%>%
+  #mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
+  #select(-Domain.Category)
 head(Strawberry_clean)
+# Implement drop column Function
+Strawberry_clean <- drop_one_value_col(Strawberry_clean)
+```
+
+```{r}
+unique(Strawberry_clean$Domain)
 ```
 
 ```{r Data Reformat}
