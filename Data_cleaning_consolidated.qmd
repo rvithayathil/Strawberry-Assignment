@@ -180,13 +180,13 @@ formatted_Toxicity <- Toxicity %>%
     all_toxicity = paste(`Toxicity.1`, `Toxicity.2`, `Toxicity.3`,
                         `Toxicity.4`, `Toxicity.5`, sep = " "),
     
-    # Create binary indicators
-    `Acute Toxic` = if_else(str_detect(all_toxicity, "Acute"), 1, NA_real_),
-    Corrosive = if_else(str_detect(all_toxicity, "Corrosive"), 1, NA_real_),
-    `Environmental Hazard` = if_else(str_detect(all_toxicity, "Environmental"), 1, NA_real_),
-    Flammable = if_else(str_detect(all_toxicity, "Flammable"), 1, NA_real_),
-    `Health Hazard` = if_else(str_detect(all_toxicity, "Health"), 1, NA_real_),
-    Irritant = if_else(str_detect(all_toxicity, "Irritant"), 1, NA_real_)
+    # Create binary indicators (0 and 1 instead of NA and 1)
+    `Acute Toxic` = if_else(str_detect(all_toxicity, "Acute"), 1, 0),
+    Corrosive = if_else(str_detect(all_toxicity, "Corrosive"), 1, 0),
+    `Environmental Hazard` = if_else(str_detect(all_toxicity, "Environmental"), 1, 0),
+    Flammable = if_else(str_detect(all_toxicity, "Flammable"), 1, 0),
+    `Health Hazard` = if_else(str_detect(all_toxicity, "Health"), 1, 0),
+    Irritant = if_else(str_detect(all_toxicity, "Irritant"), 1, 0)
   ) %>%
   # Select and arrange columns
   select(`Herbicide.ID`, `Acute Toxic`, Corrosive, `Environmental Hazard`,
