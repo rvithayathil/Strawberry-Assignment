@@ -53,8 +53,7 @@ Strawberry_clean <- drop_one_value_col(Strawberry)
 
 ```
 
-```{r Column Cleaning and Filtering}
-
+```{r Column Cleaning}
 #Clean Domain.Category to get Chemical Name, Example: "CHEMICAL: GLYPHOSATE" → "GLYPHOSATE"
 Strawberry_clean$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean$Domain.Category))
 
@@ -63,6 +62,9 @@ Strawberry_clean$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean$Data.
 # Replaces Text NAs with actual NAs
 Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Strawberry_clean$Value)
 
+```
+
+```{r Just Herbicide Data}
 # Filter for rows with Herbicide Information
 Strawberry_clean <- Strawberry_clean %>%
   filter(grepl("HERB", Domain, ignore.case = TRUE)) %>%
