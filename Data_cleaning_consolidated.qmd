@@ -12,7 +12,7 @@ library(tidyverse)
 library(dplyr)
 ```
 
-## Data Load and Cleaning
+## Overview
 
 The data is from:
 
@@ -34,6 +34,8 @@ First we attempted to scrape the PubChem website search function so that we coul
 
 After completing the sheet we saw that there were 6 unique Toxicity categories for our herbicides. We then reformatted the toxicity data so that there were 6 binary columns (one for each toxicity category).
 
+## Data Load and Cleaning
+
 ### USDA Herbicide
 
 ```{r Load Data USDA Herbicide}
@@ -54,37 +56,37 @@ Strawberry_clean <- drop_one_value_col(Strawberry)
 ```
 
 ```{r Column Cleaning}
-#Clean Domain.Category to get Chemical Name, Example: "CHEMICAL: GLYPHOSATE" → "GLYPHOSATE"
+#Clean Domain.Category to get Chemical Name 
+#Example: "CHEMICAL: GLYPHOSATE" → "(GLYPHOSATE ISO. SALT = 103601)"
 Strawberry_clean$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean$Domain.Category))
-
+# Remove Parentheses around Herbicide Name
+Strawberry_clean$Domain.Category <- gsub("\\(|\\)", "", Strawberry_clean$Domain.Category)
 #Clean Data.Item, Example: "STRAWBERRY - APPLICATIONS" → "APPLICATIONS"
 Strawberry_clean$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean$Data.Item))
 # Replaces Text NAs with actual NAs
 Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Strawberry_clean$Value)
-
-unique(Strawberry_clean$Domain.Category)
-unique(Strawberry_clean$Data.Item)
+unique(Strawberry_clean$Program)
+unique(Strawberry_clean$State.ANSI)
 head(Strawberry_clean)
 ```
 
 ```{r Just Herbicide Data}
 # Filter for rows with Herbicide Information
-Strawberry_clean <- Strawberry_clean %>%
+Strawberry_clean_herb <- Strawberry_clean %>%
   filter(grepl("HERB", Domain, ignore.case = TRUE)) #%>%
   #mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
   #select(-Domain.Category)
 head(Strawberry_clean)
-# Implement drop column Function
-Strawberry_clean <- drop_one_value_col(Strawberry_clean)
-```
-
-```{r}
-unique(Strawberry_clean$Domain)
+# Implement drop column Function on Herbicide Data ro remove Domain Herbicde column
+Strawberry_clean_herb <- drop_one_value_col(Strawberry_clean_herb)
+unique(Strawberry_clean_herb$Domain.Category)
+unique(Strawberry_clean_herb$Data.Item)
+head(Strawberry_clean_herb)
 ```
 
 ```{r Data Reformat}
 Strawberry_clean <- Strawberry_clean %>%
-  group_by(Program, Year, State, Domain, Data.Item) %>%
+  group_by(Program, Year, State, Domain.Category, Data.Item) %>%
   summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
 
 # Change Data Format
