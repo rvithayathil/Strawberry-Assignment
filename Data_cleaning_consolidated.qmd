@@ -68,6 +68,7 @@ Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Str
 unique(Strawberry_clean$Program)
 unique(Strawberry_clean$State.ANSI)
 head(Strawberry_clean)
+
 ```
 
 ```{r Just Herbicide Data}
@@ -77,22 +78,26 @@ Strawberry_clean_herb <- Strawberry_clean %>%
   #mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
   #select(-Domain.Category)
 head(Strawberry_clean)
-# Implement drop column Function on Herbicide Data ro remove Domain Herbicde column
-Strawberry_clean_herb <- drop_one_value_col(Strawberry_clean_herb)
+# Check Output
 unique(Strawberry_clean_herb$Domain.Category)
 unique(Strawberry_clean_herb$Data.Item)
 head(Strawberry_clean_herb)
 ```
 
-```{r Data Reformat}
-Strawberry_clean <- Strawberry_clean %>%
+```{r Herbicide Data Reformat}
+Strawberry_clean_herb %>%
+  group_by(Program, Year, State, Domain.Category, Data.Item) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  filter(n > 1)
+
+Strawberry_clean_herb <- Strawberry_clean_herb %>%
   group_by(Program, Year, State, Domain.Category, Data.Item) %>%
   summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
 
 # Change Data Format
-strawberry_wide <- Strawberry_clean %>%
+strawberry_wide <- Strawberry_clean_herb %>%
   tidyr::pivot_wider(
-    id_cols = c(Program, Year, State, Domain),
+    id_cols = c(Program, Year, State, Domain.Category),
     names_from = Data.Item,
     values_from = Value
   )
@@ -108,28 +113,18 @@ num_rows <- nrow(Strawberry_clean)
 # Print the result
 cat("# of Rows Strawberry_clean:", num_rows, "\n")
 
+head(Strawberry_clean_herb)
+# Count the number of rows
+num_rows <- nrow(Strawberry_clean_herb)
+# Print the result
+cat("# of Rows strawberry_clean_herb:", num_rows, "\n")
+
 head(strawberry_wide)
 # Count the number of rows
 num_rows <- nrow(strawberry_wide)
 # Print the result
 cat("# of Rows strawberry_wide:", num_rows, "\n")
-```
-
-```{r}
-Strawberry_clean2 %>%
-  group_by(Program, Year, State, Domain, Data.Item) %>%
-  summarise(n = n(), .groups = "drop") %>%
-  filter(n > 1)
-
-Strawberry_clean2_summarised <- Strawberry_clean2 %>%
-  group_by(Program, Year, State, Domain, Data.Item) %>%
-  summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
-
-strawberry_wide <- Strawberry_clean2_summarised %>%
-  pivot_wider(
-    id_cols = c(Program, Year, State, Domain),
-    names_from = Data.Item,
-    values_from = Value)
+view(strawberry_wide)
 ```
 
 To facilitate analysis, we identified the years (1990 and later) in which certain U.S. states had both herbicide data and organic data, and organized the results into a clear summary table.
@@ -206,4 +201,11 @@ head(formatted_Toxicity)
 # Check row which has many categories
 formatted_Toxicity %>% 
   filter(`Herbicide.ID` == "79701")
+```
+
+### Combine Data Sets
+
+```{r Join strawberry_wide with formatted_Toxicity}
+
+
 ```
