@@ -253,3 +253,8 @@ View(unmatched_rows)
 head(unmatched_rows, 20)
 
 ```
+
+```{r}
+# Save the DataFrame to a CSV file
+write.csv(strawberry_with_toxicity,'strawberry_with_toxicity.csv', row.names = FALSE)
+```
