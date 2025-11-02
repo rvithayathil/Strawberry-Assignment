@@ -124,7 +124,6 @@ head(strawberry_wide)
 num_rows <- nrow(strawberry_wide)
 # Print the result
 cat("# of Rows strawberry_wide:", num_rows, "\n")
-view(strawberry_wide)
 ```
 
 To facilitate analysis, we identified the years (1990 and later) in which certain U.S. states had both herbicide data and organic data, and organized the results into a clear summary table.
@@ -206,6 +205,51 @@ formatted_Toxicity %>%
 ### Combine Data Sets
 
 ```{r Join strawberry_wide with formatted_Toxicity}
+# Step 1: Extract the ID from Domain.Category in strawberry_wide
+strawberry_wide <- strawberry_wide %>%
+  mutate(
+    # Extract the number after the "=" sign
+    Herbicide.ID = as.numeric(str_extract(Domain.Category, "(?<=\\= )\\d+"))
+  )
 
+# Check if extraction worked
+head(strawberry_wide %>% select(Domain.Category, Herbicide.ID))
+
+# Step 2: Join with toxicity data
+strawberry_with_toxicity <- strawberry_wide %>%
+  left_join(formatted_Toxicity, by = "Herbicide.ID")
+
+# View the result
+head(strawberry_with_toxicity)
+view(strawberry_with_toxicity)
+
+# Check how many matched
+strawberry_with_toxicity %>%
+  summarise(
+    total_rows = n(),
+    matched = sum(!is.na(`Acute Toxic`) | !is.na(Corrosive) | 
+                  !is.na(`Environmental Hazard`) | !is.na(Flammable) | 
+                  !is.na(`Health Hazard`) | !is.na(Irritant)),
+    unmatched = sum(is.na(`Acute Toxic`) & is.na(Corrosive) & 
+                   is.na(`Environmental Hazard`) & is.na(Flammable) & 
+                   is.na(`Health Hazard`) & is.na(Irritant))
+  )
+#Simple Count:
+# Count rows where Domain.Category is exactly "TOTAL" This # should equal the unmatched #
+sum(strawberry_wide$Domain.Category == "TOTAL", na.rm = TRUE)
+
+```
+
+```{r}
+# Filter for rows where all toxicity columns are NA
+unmatched_rows <- strawberry_with_toxicity %>%
+  filter(is.na(`Acute Toxic`) & is.na(Corrosive) & 
+         is.na(`Environmental Hazard`) & is.na(Flammable) & 
+         is.na(`Health Hazard`) & is.na(Irritant))
+
+# View them
+View(unmatched_rows)
+# Or
+head(unmatched_rows, 20)
 
 ```
