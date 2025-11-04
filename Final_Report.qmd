@@ -43,7 +43,7 @@ library(tidyverse)
 library(knitr)
 library(kableExtra)
 
-tox_raw <- read_csv("USDA_Herbicide_Raw_Data.csv")
+tox_raw <- read_csv("https://raw.githubusercontent.com/rvithayathil/Strawberry-Assignment/refs/heads/Data/USDA_Herbicide_Raw_Data.csv")
 
 tox_raw_preview <- tox_raw %>% head(5)
 
