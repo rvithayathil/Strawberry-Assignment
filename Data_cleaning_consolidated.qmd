@@ -1,0 +1,260 @@
+---
+title: "assignment-615-cleaning-data"
+authors: Bihong Wang, Rebecca Vithayathil, Shuxin Qian 
+format: html
+  fig-format: png     
+  embed-resources: true
+editor: visual
+---
+
+```{r Libraries}
+library(tidyverse)
+library(dplyr)
+```
+
+## Overview
+
+The data is from:
+
+<https://quickstats.nass.usda.gov/> - Herbicide use information
+
+<https://pubchem.ncbi.nlm.nih.gov> - Toxicity information
+
+#### USDA
+
+We first organized the data set downloaded directly from the USDA website by removing columns that contained only a single unique value. This step eliminates meaningless constants and keeps only variables that provide useful distinctions.
+
+Next, we cleaned and standardized several data names, and created new variables to facilitate later comparisons. We then grouped the large and complex dataset so that for each state, each year, and each type of herbicide, only one representative value was retained.
+
+Finally, we transformed the cleaned data into a structured table format, making it easier to review and to use in subsequent coding and analysis.
+
+#### Toxicity
+
+First we attempted to scrape the PubChem website search function so that we could import toxicity information that way. After we weren't able to achieve this we decided to search the website ourselves and copy the information into a shared sheet since we only had 38 chemicals to search. This was a more accurate approach as well as there were inconsistencies between naming and IDs in the USDA website and the PubChem website.
+
+After completing the sheet we saw that there were 6 unique Toxicity categories for our herbicides. We then reformatted the toxicity data so that there were 6 binary columns (one for each toxicity category).
+
+## Data Load and Cleaning
+
+### USDA Herbicide
+
+```{r Load Data USDA Herbicide}
+Strawberry <- read.csv("https://raw.githubusercontent.com/rvithayathil/Strawberry-Assignment/refs/heads/Data/USDA_Herbicide_Raw_Data.csv")
+glimpse(Strawberry)
+
+```
+
+```{r Drop Cols}
+## Create Function remove columns with a single value in all rows
+drop_one_value_col <- function(df) {
+  keep <- vapply(df, function(x) dplyr::n_distinct(x, na.rm = FALSE) > 1, logical(1))
+  df[, keep, drop = FALSE]
+}
+# Implement drop column Function
+Strawberry_clean <- drop_one_value_col(Strawberry)
+
+```
+
+```{r Column Cleaning}
+#Clean Domain.Category to get Chemical Name 
+#Example: "CHEMICAL: GLYPHOSATE" → "(GLYPHOSATE ISO. SALT = 103601)"
+Strawberry_clean$Domain.Category <- trimws(sub(".*:", "", Strawberry_clean$Domain.Category))
+# Remove Parentheses around Herbicide Name
+Strawberry_clean$Domain.Category <- gsub("\\(|\\)", "", Strawberry_clean$Domain.Category)
+#Clean Data.Item, Example: "STRAWBERRY - APPLICATIONS" → "APPLICATIONS"
+Strawberry_clean$Data.Item       <- trimws(sub(".*-", "", Strawberry_clean$Data.Item))
+# Replaces Text NAs with actual NAs
+Strawberry_clean$Value <- ifelse(Strawberry_clean$Value %in% c(" (NA)"), NA, Strawberry_clean$Value)
+unique(Strawberry_clean$Program)
+unique(Strawberry_clean$State.ANSI)
+head(Strawberry_clean)
+
+```
+
+```{r Just Herbicide Data}
+# Filter for rows with Herbicide Information
+Strawberry_clean_herb <- Strawberry_clean %>%
+  filter(grepl("HERB", Domain, ignore.case = TRUE)) #%>%
+  #mutate(Domain = str_c(Domain, Domain.Category, sep = ": ")) %>%
+  #select(-Domain.Category)
+head(Strawberry_clean)
+# Check Output
+unique(Strawberry_clean_herb$Domain.Category)
+unique(Strawberry_clean_herb$Data.Item)
+head(Strawberry_clean_herb)
+```
+
+```{r Herbicide Data Reformat}
+Strawberry_clean_herb %>%
+  group_by(Program, Year, State, Domain.Category, Data.Item) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  filter(n > 1)
+
+Strawberry_clean_herb <- Strawberry_clean_herb %>%
+  group_by(Program, Year, State, Domain.Category, Data.Item) %>%
+  summarise(Value = max(Value, na.rm = TRUE), .groups = "drop")
+
+# Change Data Format
+strawberry_wide <- Strawberry_clean_herb %>%
+  tidyr::pivot_wider(
+    id_cols = c(Program, Year, State, Domain.Category),
+    names_from = Data.Item,
+    values_from = Value
+  )
+head(Strawberry)
+# Count the number of rows
+num_rows <- nrow(Strawberry)
+# Print the result
+cat("# of Rows Strawberry:", num_rows, "\n")
+
+head(Strawberry_clean)
+# Count the number of rows
+num_rows <- nrow(Strawberry_clean)
+# Print the result
+cat("# of Rows Strawberry_clean:", num_rows, "\n")
+
+head(Strawberry_clean_herb)
+# Count the number of rows
+num_rows <- nrow(Strawberry_clean_herb)
+# Print the result
+cat("# of Rows strawberry_clean_herb:", num_rows, "\n")
+
+head(strawberry_wide)
+# Count the number of rows
+num_rows <- nrow(strawberry_wide)
+# Print the result
+cat("# of Rows strawberry_wide:", num_rows, "\n")
+```
+
+To facilitate analysis, we identified the years (1990 and later) in which certain U.S. states had both herbicide data and organic data, and organized the results into a clear summary table.
+
+```{r}
+## Keep ONLY years with BOTH Herbicide & Organic data (1990+)
+states_both <- tibble(Year = 1990:max(as.integer(c(strawberry_wide$Year, Strawberry$Year)), na.rm = TRUE)) %>%
+  left_join(
+    strawberry_wide %>%
+      mutate(Year = suppressWarnings(as.integer(Year))) %>%
+      filter(!is.na(Year), nzchar(State)) %>%
+      group_by(Year) %>% summarise(h = list(sort(unique(State))), .groups = "drop"),
+    by = "Year"
+  ) %>%
+  left_join(
+    Strawberry %>%
+      filter(grepl("ORGANIC STATUS", Domain, ignore.case = TRUE)) %>%
+      mutate(Year = suppressWarnings(as.integer(Year))) %>%
+      filter(!is.na(Year), nzchar(State)) %>%
+      group_by(Year) %>% summarise(o = list(sort(unique(State))), .groups = "drop"),
+    by = "Year"
+  ) %>%
+  mutate(both = purrr::map2(h, o, ~{
+    a <- if (is.null(.x)) character(0) else .x
+    b <- if (is.null(.y)) character(0) else .y
+    sort(intersect(a, b))
+  })) %>%
+  filter(lengths(both) > 0) %>%
+  transmute(
+    Year,
+    `States with both` = purrr::map_chr(both, ~ paste(.x, collapse = ", "))
+  ) %>%
+  arrange(Year)
+
+states_both
+```
+
+```{CSV Export r}
+write.csv(Strawberry_clean1, "Strawberry_clean1.csv", row.names = FALSE) write.csv(Strawberry_clean2, "Strawberry_clean2.csv", row.names = FALSE) write.csv(strawberry_wide, "strawberry_wide.csv", row.names = FALSE) write.csv(states_both, "states_both.csv", row.names = FALSE)
+```
+
+### PubChem Toxicity
+
+```{r Load Toxicity PubChem Data}
+Toxicity <- read.csv("https://raw.githubusercontent.com/rvithayathil/Strawberry-Assignment/refs/heads/Data/Toxicity_PubChem_Raw_Data%20-%20Data.csv")
+head(Toxicity)
+```
+
+```{r}
+# Create binary columns for each toxicity type
+formatted_Toxicity <- Toxicity %>%
+  mutate(
+    # Combine all toxicity columns into one for searching
+    all_toxicity = paste(`Toxicity.1`, `Toxicity.2`, `Toxicity.3`,
+                        `Toxicity.4`, `Toxicity.5`, sep = " "),
+    
+    # Create binary indicators (0 and 1 instead of NA and 1)
+    `Acute Toxic` = if_else(str_detect(all_toxicity, "Acute"), 1, 0),
+    Corrosive = if_else(str_detect(all_toxicity, "Corrosive"), 1, 0),
+    `Environmental Hazard` = if_else(str_detect(all_toxicity, "Environmental"), 1, 0),
+    Flammable = if_else(str_detect(all_toxicity, "Flammable"), 1, 0),
+    `Health Hazard` = if_else(str_detect(all_toxicity, "Health"), 1, 0),
+    Irritant = if_else(str_detect(all_toxicity, "Irritant"), 1, 0)
+  ) %>%
+  # Select and arrange columns
+  select(`Herbicide.ID`, `Acute Toxic`, Corrosive, `Environmental Hazard`,
+         Flammable, `Health Hazard`, Irritant, `Additional.Info`)
+
+```
+
+```{r Toxicity Reformat Check}
+#Review first 6 rows
+head(formatted_Toxicity)
+# Check row which has many categories
+formatted_Toxicity %>% 
+  filter(`Herbicide.ID` == "79701")
+```
+
+### Combine Data Sets
+
+```{r Join strawberry_wide with formatted_Toxicity}
+# Step 1: Extract the ID from Domain.Category in strawberry_wide
+strawberry_wide <- strawberry_wide %>%
+  mutate(
+    # Extract the number after the "=" sign
+    Herbicide.ID = as.numeric(str_extract(Domain.Category, "(?<=\\= )\\d+"))
+  )
+
+# Check if extraction worked
+head(strawberry_wide %>% select(Domain.Category, Herbicide.ID))
+
+# Step 2: Join with toxicity data
+strawberry_with_toxicity <- strawberry_wide %>%
+  left_join(formatted_Toxicity, by = "Herbicide.ID")
+
+# View the result
+head(strawberry_with_toxicity)
+view(strawberry_with_toxicity)
+
+# Check how many matched
+strawberry_with_toxicity %>%
+  summarise(
+    total_rows = n(),
+    matched = sum(!is.na(`Acute Toxic`) | !is.na(Corrosive) | 
+                  !is.na(`Environmental Hazard`) | !is.na(Flammable) | 
+                  !is.na(`Health Hazard`) | !is.na(Irritant)),
+    unmatched = sum(is.na(`Acute Toxic`) & is.na(Corrosive) & 
+                   is.na(`Environmental Hazard`) & is.na(Flammable) & 
+                   is.na(`Health Hazard`) & is.na(Irritant))
+  )
+#Simple Count:
+# Count rows where Domain.Category is exactly "TOTAL" This # should equal the unmatched #
+sum(strawberry_wide$Domain.Category == "TOTAL", na.rm = TRUE)
+
+```
+
+```{r}
+# Filter for rows where all toxicity columns are NA
+unmatched_rows <- strawberry_with_toxicity %>%
+  filter(is.na(`Acute Toxic`) & is.na(Corrosive) & 
+         is.na(`Environmental Hazard`) & is.na(Flammable) & 
+         is.na(`Health Hazard`) & is.na(Irritant))
+
+# View them
+View(unmatched_rows)
+# Or
+head(unmatched_rows, 20)
+
+```
+
+```{r}
+# Save the DataFrame to a CSV file
+write.csv(strawberry_with_toxicity,'strawberry_with_toxicity.csv', row.names = FALSE)
+```
