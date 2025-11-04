@@ -22,14 +22,14 @@ Filtered observations where Domain contained "HERB".
 
 Combined Domain and Domain.Category into one field for easier filtering.
 
-Removed missing or suppressed values (e.g., (NA), (D), (L)).
+Combined with the data set of herbicide toxicity information.
 
 Saved cleaned data as strawberry_with_toxicity.csv.
 
 Key Variables:
 
 | Variable | Description |
-|----|----|
+|------------------------------|------------------------------------------|
 | **Program** | The USDA data collection program (e.g., “CENSUS”, “SURVEY”). |
 | **Year** | The years in which the data were collected. |
 | **State** | The U.S. states where data were collected. |
