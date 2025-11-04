@@ -1,0 +1,1963 @@
+"Program","Year","State","Domain.Category","APPLICATIONS, MEASURED IN LB","APPLICATIONS, MEASURED IN LB / ACRE / APPLICATION, AVG","APPLICATIONS, MEASURED IN LB / ACRE / YEAR, AVG","APPLICATIONS, MEASURED IN NUMBER, AVG","TREATED, MEASURED IN PCT OF AREA BEARING, AVG","Herbicide.ID","Acute Toxic","Corrosive","Environmental Hazard","Flammable","Health Hazard","Irritant","Additional.Info"
+"SURVEY",1990,"FLORIDA","GLYPHOSATE = 417300","300","1.2","2.68","2.2","2",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"FLORIDA","NAPROPAMIDE = 103001","3,100","1.21","1.51","1.2","37",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"FLORIDA","PARAQUAT = 61601","4,100","0.49","0.92","1.9","81",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"FLORIDA","TOTAL",NA,NA,NA,NA,"90",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1990,"MICHIGAN","2,4-D = 30001","500","1.01","1.26","1.2","16",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"MICHIGAN","CHLOROXURON = 25501","400","2.86","2.86","1","6",25501,0,0,1,0,0,1,"H332 (55.7%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H400 (95.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (40%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"MICHIGAN","DCPA = 78701","2,000","6.69","7.11","1.1","12",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1990,"MICHIGAN","DIPHENAMID = 36601","800","3.25","3.25","1","10",36601,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"MICHIGAN","NAPROPAMIDE = 103001","3,300","2.25","2.63","1.2","53",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"MICHIGAN","SETHOXYDIM = 121001","100","0.34","0.36","1.1","12",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"MICHIGAN","TERBACIL = 12701","200","0.24","0.29","1.2","35",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1990,"MICHIGAN","TOTAL",NA,NA,NA,NA,"81",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"CALIFORNIA","TOTAL",NA,NA,NA,NA,"5",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"FLORIDA","PARAQUAT = 61601","5,100","0.66","1.23","1.9","89",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"FLORIDA","TOTAL",NA,NA,NA,NA,"92",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"MICHIGAN","2,4-D = 30001","600","0.96","0.96","1","26",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"MICHIGAN","DCPA = 78701","2,000","4.66","7.35","1.6","12",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1992,"MICHIGAN","NAPROPAMIDE = 103001","2,800","2.55","2.66","1","46",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"MICHIGAN","SETHOXYDIM = 121001","100","0.37","0.37","1","16",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"MICHIGAN","TERBACIL = 12701","200","0.26","0.33","1.3","25",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"MICHIGAN","TOTAL",NA,NA,NA,NA,"90",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"NEW JERSEY","DCPA = 78701","2,200","8.6","17.17","2","26",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1992,"NEW JERSEY","NAPROPAMIDE = 103001","500","2.5","2.82","1.1","33",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NEW JERSEY","SETHOXYDIM = 121001",NA,"0.33","0.35","1.1","11",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NEW JERSEY","TOTAL",NA,NA,NA,NA,"59",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"NEW YORK","2,4-D = 30001","1,000","0.95","0.95","1","28",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NEW YORK","NAPROPAMIDE = 103001","5,600","3.16","3.44","1.1","42",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NEW YORK","TERBACIL = 12701","1,100","0.52","0.64","1.2","44",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NEW YORK","TOTAL",NA,NA,NA,NA,"77",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"NORTH CAROLINA","2,4-D = 30001","500","0.76","0.85","1.1","26",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NORTH CAROLINA","NAPROPAMIDE = 103001","2,400","2.68","3.45","1.3","29",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NORTH CAROLINA","SETHOXYDIM = 121001","200","0.26","0.31","1.6","27",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"NORTH CAROLINA","TOTAL",NA,NA,NA,NA,"56",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"OREGON","NAPROPAMIDE = 103001","9,700","2.97","2.99","1","52",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"OREGON","SIMAZINE = 80807","2,500","0.93","1.02","1.1","40",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"OREGON","TOTAL",NA,NA,NA,NA,"60",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"WASHINGTON","NAPROPAMIDE = 103001","2,500","2.55","3.46","1.4","44",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"WASHINGTON","SIMAZINE = 80807","400","1.01","1.01","1","22",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"WASHINGTON","TOTAL",NA,NA,NA,NA,"71",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1992,"WISCONSIN","2,4-D = 30001","400","1.08","1.11","1","29",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"WISCONSIN","NAPROPAMIDE = 103001","1,800","3.5","3.74","1.1","36",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"WISCONSIN","SETHOXYDIM = 121001",NA,"0.3","0.3","1","12",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"WISCONSIN","TERBACIL = 12701","100","0.25","0.28","1.1","38",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1992,"WISCONSIN","TOTAL",NA,NA,NA,NA,"62",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"CALIFORNIA","NAPROPAMIDE = 103001","3,300","3.39","4.52","1.3","3",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"CALIFORNIA","PARAQUAT = 61601","200","0.42","0.42","1","3",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"CALIFORNIA","TOTAL","3,700",NA,NA,NA,"4",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"FLORIDA","GLYPHOSATE = 417300","100","0.31","0.31","1","3",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"FLORIDA","NAPROPAMIDE = 103001","2,700","0.75","1.8","2.4","26",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"FLORIDA","PARAQUAT = 61601","2,200","0.23","0.44","1.9","87",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"FLORIDA","TOTAL","15,200",NA,NA,NA,"93",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"MICHIGAN","2,4-D = 30001","400","0.99","1.02","1","19",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"MICHIGAN","DCPA = 78701","1,200","7.02","7.02","1","8",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1994,"MICHIGAN","NAPROPAMIDE = 103001","3,500","2.36","3.12","1.3","54",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"MICHIGAN","SETHOXYDIM = 121001","100","0.34","0.34","1","14",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"MICHIGAN","TERBACIL = 12701","300","0.23","0.28","1.2","48",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"MICHIGAN","TOTAL","5,700",NA,NA,NA,"86",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"NEW JERSEY","2,4-D = 30001","100","1.19","1.19","1","12",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW JERSEY","NAPROPAMIDE = 103001","600","2.65","2.85","1.1","39",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW JERSEY","TERBACIL = 12701",NA,"0.19","0.26","1.4","10",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW JERSEY","TOTAL","700",NA,NA,NA,"50",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"NEW YORK","2,4-D = 30001","500","0.83","0.83","1","23",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW YORK","DCPA = 78701","500","6.33","6.33","1","3",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1994,"NEW YORK","NAPROPAMIDE = 103001","2,800","2.9","3.09","1.1","34",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW YORK","SETHOXYDIM = 121001","100","0.24","0.24","1","13",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW YORK","TERBACIL = 12701","400","0.41","0.44","1.1","32",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NEW YORK","TOTAL","4,200",NA,NA,NA,"53",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"NORTH CAROLINA","2,4-D = 30001","600","0.74","1.03","1.4","24",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NORTH CAROLINA","DCPA = 78701","900","5.7","6.63","1.2","5",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1994,"NORTH CAROLINA","NAPROPAMIDE = 103001","3,800","2.59","3.21","1.2","48",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NORTH CAROLINA","PARAQUAT = 61601","400","0.41","0.47","1.1","31",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NORTH CAROLINA","SETHOXYDIM = 121001","200","0.32","0.38","1.2","20",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NORTH CAROLINA","TERBACIL = 12701","100","0.39","0.58","1.5","7",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"NORTH CAROLINA","TOTAL","6,000",NA,NA,NA,"71",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"OREGON","NAPROPAMIDE = 103001","5,100","2.88","2.88","1","28",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"OREGON","PARAQUAT = 61601","1,000","0.49","0.49","1","32",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"OREGON","SETHOXYDIM = 121001","300","0.32","0.34","1","15",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"OREGON","SIMAZINE = 80807","2,900","1.01","1.01","1","45",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"OREGON","TERBACIL = 12701","300","0.49","0.49","1","9",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"OREGON","TOTAL","9,800",NA,NA,NA,"76",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"WASHINGTON","NAPROPAMIDE = 103001","2,600","2.12","3.69","1.7","51",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"WASHINGTON","SIMAZINE = 80807","500","0.87","0.99","1.1","32",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"WASHINGTON","TOTAL","3,200",NA,NA,NA,"78",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1994,"WISCONSIN","2,4-D = 30001","800","1.19","1.25","1","47",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"WISCONSIN","DCPA = 78701","400","5.28","5.72","1.1","5",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1994,"WISCONSIN","NAPROPAMIDE = 103001","2,000","3.32","3.35","1","45",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"WISCONSIN","SETHOXYDIM = 121001","200","0.35","0.47","1.3","36",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"WISCONSIN","TERBACIL = 12701","200","0.33","0.35","1.1","52",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1994,"WISCONSIN","TOTAL","3,600",NA,NA,NA,"82",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"CALIFORNIA","NAPROPAMIDE = 103001","3,100","1.59","2.01","1.3","6",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"CALIFORNIA","TOTAL","3,100",NA,NA,NA,"6",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"FLORIDA","GLYPHOSATE = 417300","4,600","1.17","1.96","1.7","39",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"FLORIDA","NAPROPAMIDE = 103001","1,300","1.13","1.79","1.6","12",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"FLORIDA","PARAQUAT = 61601","6,000","0.65","1.21","1.9","82",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"FLORIDA","TOTAL","13,100",NA,NA,NA,"92",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"NEW YORK","2,4-D = 30001","400","0.9","0.91","1","21",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"NEW YORK","NAPROPAMIDE = 103001","3,900","2.96","3.16","1.1","56",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"NEW YORK","SETHOXYDIM = 121001","100","0.23","0.3","1.3","13",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"NEW YORK","TERBACIL = 12701","200","0.25","0.31","1.3","33",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"NEW YORK","TOTAL","5,400",NA,NA,NA,"86",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"NORTH CAROLINA","NAPROPAMIDE = 103001","1,100","2.83","3.07","1.1","15",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"NORTH CAROLINA","SETHOXYDIM = 121001","100","0.22","0.24","1.1","18",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"NORTH CAROLINA","TOTAL","2,800",NA,NA,NA,"36",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"OREGON","NAPROPAMIDE = 103001","7,500","2.66","2.95","1.1","42",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"OREGON","SETHOXYDIM = 121001","100","0.31","0.31","1","8",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"OREGON","SIMAZINE = 80807","3,300","1.06","1.12","1.1","48",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"OREGON","TOTAL","11,400",NA,NA,NA,"71",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"WASHINGTON","NAPROPAMIDE = 103001","2,100","2.59","3.92","1.5","41",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"WASHINGTON","SIMAZINE = 80807","400","0.69","0.69","1","50",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"WASHINGTON","TOTAL","3,000",NA,NA,NA,"70",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1996,"WISCONSIN","2,4-D = 30001","600","1","1.12","1.1","41",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"WISCONSIN","DCPA = 78701","900","6.37","7.24","1.1","9",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1996,"WISCONSIN","NAPROPAMIDE = 103001","1,800","3.26","3.49","1.1","40",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"WISCONSIN","SETHOXYDIM = 121001","200","0.35","0.43","1.2","29",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"WISCONSIN","TERBACIL = 12701","200","0.26","0.29","1.1","49",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1996,"WISCONSIN","TOTAL","3,700",NA,NA,NA,"91",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"CALIFORNIA","NAPROPAMIDE = 103001","6,500","3.6","6.56","1.8","4",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"CALIFORNIA","PARAQUAT = 61601","100","0.4","0.44","1.1","1",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"CALIFORNIA","TOTAL","6,600",NA,NA,NA,"4",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"FLORIDA","GLYPHOSATE = 417300","4,300","1.3","1.87","1.4","37",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"FLORIDA","PARAQUAT = 61601","6,800","0.72","1.37","1.9","80",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"FLORIDA","TOTAL","11,600",NA,NA,NA,"92",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"MICHIGAN","2,4-D = 30001","500","0.98","1.01","1","34",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"MICHIGAN","DCPA = 78701","1,100","8.53","9.6","1.1","8",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1998,"MICHIGAN","NAPROPAMIDE = 103001","1,700","1.89","1.95","1","59",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"MICHIGAN","SETHOXYDIM = 121001","200","0.37","0.4","1","30",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"MICHIGAN","TERBACIL = 12701","200","0.26","0.3","1.1","41",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"MICHIGAN","TOTAL","3,700",NA,NA,NA,"82",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"NEW JERSEY","NAPROPAMIDE = 103001","500","2.88","3.26","1.1","33",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NEW JERSEY","TOTAL","900",NA,NA,NA,"46",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"NEW YORK","2,4-D = 30001","700","1.14","1.23","1","34",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NEW YORK","DCPA = 78701","500","5.98","7.48","1.2","4",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",1998,"NEW YORK","NAPROPAMIDE = 103001","2,800","3.43","3.64","1","46",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NEW YORK","SETHOXYDIM = 121001","100","0.28","0.3","1.1","14",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NEW YORK","TERBACIL = 12701","300","0.35","0.37","1","46",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NEW YORK","TOTAL","4,400",NA,NA,NA,"74",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"NORTH CAROLINA","PARAQUAT = 61601",NA,"0.24","0.35","1.4","5",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NORTH CAROLINA","SETHOXYDIM = 121001","200","0.33","0.39","1.1","28",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"NORTH CAROLINA","TOTAL","700",NA,NA,NA,"43",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"OREGON","NAPROPAMIDE = 103001","5,800","3.28","3.28","1","39",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"OREGON","OXYFLUORFEN = 111601","200","0.32","0.32","1","15",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"OREGON","SETHOXYDIM = 121001","100","0.31","0.34","1","5",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"OREGON","SIMAZINE = 80807","2,200","0.91","0.97","1","51",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"OREGON","TOTAL","8,900",NA,NA,NA,"61",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"WASHINGTON","NAPROPAMIDE = 103001","1,100","1.52","1.52","1","48",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"WASHINGTON","OXYFLUORFEN = 111601","100","0.2","0.23","1.1","15",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"WASHINGTON","TOTAL","1,500",NA,NA,NA,"68",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",1998,"WISCONSIN","2,4-D = 30001","600","0.84","0.98","1.1","47",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"WISCONSIN","NAPROPAMIDE = 103001","1,700","3.55","3.73","1","39",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"WISCONSIN","SETHOXYDIM = 121001","100","0.16","0.2","1.2","55",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"WISCONSIN","TERBACIL = 12701","300","0.23","0.43","1.8","65",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",1998,"WISCONSIN","TOTAL","2,800",NA,NA,NA,"95",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"CALIFORNIA","NAPROPAMIDE = 103001","1,100","1.86","2.07","1.1","2",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"CALIFORNIA","PARAQUAT = 61601","2,200","0.69","0.83","1.1","10",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"CALIFORNIA","TOTAL","3,600",NA,NA,NA,"12",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"FLORIDA","GLYPHOSATE = 417300","1,900","1.04","1.85","1.7","16",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"FLORIDA","PARAQUAT = 61601","7,000","0.93","1.27","1.3","88",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"FLORIDA","TOTAL","9,400",NA,NA,NA,"94",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"MICHIGAN","2,4-D = 30001","400","0.92","1.32","1.4","23",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"MICHIGAN","GLYPHOSATE = 417300","300","2.3","5.16","2.2","4",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"MICHIGAN","NAPROPAMIDE = 103001","1,700","2.55","3.04","1.2","40",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"MICHIGAN","SETHOXYDIM = 121001",NA,"0.21","0.29","1.4","8",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"MICHIGAN","TERBACIL = 12701","300","0.37","0.51","1.3","36",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"MICHIGAN","TOTAL","2,800",NA,NA,NA,"64",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"NEW JERSEY","NAPROPAMIDE = 103001","900","2.85","3.46","1.2","50",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW JERSEY","SETHOXYDIM = 121001",NA,"0.27","0.33","1.1","4",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW JERSEY","TERBACIL = 12701",NA,"0.22","0.3","1.3","9",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW JERSEY","TOTAL","900",NA,NA,NA,"55",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"NEW YORK","2,4-D = 30001","500","0.97","1.12","1.1","27",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW YORK","NAPROPAMIDE = 103001","3,400","2.4","3.81","1.5","53",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW YORK","SETHOXYDIM = 121001",NA,"0.33","0.33","1","5",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW YORK","TERBACIL = 12701","200","0.3","0.46","1.5","32",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NEW YORK","TOTAL","4,100",NA,NA,NA,"69",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"NORTH CAROLINA","NAPROPAMIDE = 103001","400","2.91","3","1","8",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NORTH CAROLINA","PARAQUAT = 61601",NA,"0.55","0.55","1","3",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NORTH CAROLINA","SETHOXYDIM = 121001",NA,"0.21","0.24","1.1","9",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"NORTH CAROLINA","TOTAL","500",NA,NA,NA,"18",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"OREGON","NAPROPAMIDE = 103001","6,300","3.59","3.7","1","42",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"OREGON","OXYFLUORFEN = 111601","400","0.28","0.3","1","35",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"OREGON","SETHOXYDIM = 121001","200","0.34","0.41","1.1","11",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"OREGON","SIMAZINE = 80807","2,000","0.9","0.93","1","52",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"OREGON","TERBACIL = 12701","100","0.33","0.33","1","9",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"OREGON","TOTAL","9,300",NA,NA,NA,"80",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"PENNSYLVANIA","2,4-D = 30001","800","1.09","1.19","1","51",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"PENNSYLVANIA","NAPROPAMIDE = 103001","2,700","2.86","3.54","1.2","60",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"PENNSYLVANIA","OXYFLUORFEN = 111601","100","0.29","0.29","1","16",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"PENNSYLVANIA","SETHOXYDIM = 121001","100","0.3","0.34","1.1","29",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"PENNSYLVANIA","TERBACIL = 12701","200","0.23","0.31","1.3","45",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"PENNSYLVANIA","TOTAL","3,900",NA,NA,NA,"81",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"WASHINGTON","NAPROPAMIDE = 103001","2,700","1.88","3.09","1.6","59",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WASHINGTON","OXYFLUORFEN = 111601",NA,"0.29","0.33","1.1","7",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WASHINGTON","SIMAZINE = 80807","300","0.58","0.58","1","31",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WASHINGTON","TOTAL","3,200",NA,NA,NA,"83",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2000,"WISCONSIN","2,4-D = 30001","600","1.23","1.29","1","41",30001,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WISCONSIN","NAPROPAMIDE = 103001","1,800","3.3","3.69","1.1","41",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WISCONSIN","SETHOXYDIM = 121001","100","0.31","0.34","1.1","22",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WISCONSIN","TERBACIL = 12701","200","0.24","0.26","1.1","58",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2000,"WISCONSIN","TOTAL","2,700",NA,NA,NA,"83",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2002,"CALIFORNIA","NAPROPAMIDE = 103001","7,500","2.22","2.74","1.2","10",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"CALIFORNIA","TOTAL","8,700",NA,NA,NA,"16",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2002,"FLORIDA","GLYPHOSATE = 417300","2,400","0.56","0.89","1.5","38",417300,0,1,1,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"FLORIDA","PARAQUAT = 61601","1,800","0.34","0.49","1.4","52",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"FLORIDA","TOTAL","4,300",NA,NA,NA,"89",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2002,"OREGON","CLETHODIM = 121011","100","0.1","0.14","1.5","11",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"OREGON","NAPROPAMIDE = 103001","3,800","3.53","3.58","1","30",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"OREGON","SIMAZINE = 80807","2,300","0.96","0.96","1","67",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"OREGON","SULFENTRAZONE = 129081","200","0.24","0.28","1.1","22",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"OREGON","TERBACIL = 12701","100","0.3","0.3","1","5",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2002,"OREGON","TOTAL","7,000",NA,NA,NA,"83",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2004,"CALIFORNIA","TOTAL","1,000",NA,NA,NA,"2",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2004,"FLORIDA","PARAQUAT = 61601","900","0.45","0.65","1.5","19",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2004,"FLORIDA","TOTAL","9,200",NA,NA,NA,"53",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2004,"OREGON","CLETHODIM = 121011",NA,"0.13","0.16","1.2","10",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2004,"OREGON","NAPROPAMIDE = 103001","5,000","3.92","3.92","1","39",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2004,"OREGON","SIMAZINE = 80807","2,000","1.05","1.07","1","56",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2004,"OREGON","SULFENTRAZONE = 129081","200","0.25","0.25","1","30",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2004,"OREGON","TOTAL","7,700",NA,NA,NA,"83",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2006,"CALIFORNIA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"CALIFORNIA","NAPROPAMIDE = 103001","2,900","1.125","1.392","1.2","6",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"CALIFORNIA","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"CALIFORNIA","PARAQUAT = 61601","400","0.4","0.521","1.3","2",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"CALIFORNIA","TOTAL","3,700",NA,NA,NA,"13",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2006,"FLORIDA","GLYPHOSATE ISO. SALT = 103601","5,100","1.275","2.73","2.1","25",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"FLORIDA","METRIBUZIN = 101101"," (D)"," (D)"," (D)"," (D)"," (D)",101101,0,0,1,0,1,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"FLORIDA","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"FLORIDA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"FLORIDA","TOTAL","5,300",NA,NA,NA,"27",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2006,"OREGON","2,4-D, DIMETH. SALT = 30019"," (D)"," (D)"," (D)"," (D)"," (D)",30019,0,1,1,0,0,1,"H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312 (18.6%): Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H317 (100%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318 (100%): Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H332 (18.6%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H410 (35.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H411 (64.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","CLOPYRALID = 117403"," (D)"," (D)"," (D)"," (D)"," (D)",117403,0,1,0,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]"
+"SURVEY",2006,"OREGON","DIURON = 35505"," (D)"," (D)"," (D)"," (D)"," (D)",35505,0,0,1,0,1,0,"H350: May cause cancer [Danger Carcinogenicity]
+
+H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","GLUFOSINATE-AMMONIUM = 128850"," (D)"," (D)"," (D)"," (D)"," (D)",128850,0,0,0,0,1,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312: Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H360Fd: May damage fertility; Suspected of damaging the unborn child [Danger Reproductive toxicity]
+
+H373 **: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+"SURVEY",2006,"OREGON","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","SIMAZINE = 80807"," (D)"," (D)"," (D)"," (D)"," (D)",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","SULFENTRAZONE = 129081","800","0.297","0.34","1.1","75",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","TERBACIL = 12701"," (D)"," (D)"," (D)"," (D)"," (D)",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"OREGON","TOTAL","3,300",NA,NA,NA,"90",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2006,"WASHINGTON","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","CLOPYRALID = 117403"," (D)"," (D)"," (D)"," (D)"," (D)",117403,0,1,0,0,0,0,"H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]"
+"SURVEY",2006,"WASHINGTON","DCPA = 78701"," (D)"," (D)"," (D)"," (D)"," (D)",78701,1,0,1,1,1,1,"Not Classified
+
+Reported as not meeting GHS hazard criteria by 455 of 468 companies (only 2.8% companies provided GHS information). For more detailed information, please visit ECHA C&L website."
+"SURVEY",2006,"WASHINGTON","NAPROPAMIDE = 103001","200","1.915","1.915","1","9",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","SETHOXYDIM = 121001"," (D)"," (D)"," (D)"," (D)"," (D)",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","SIMAZINE = 80807"," (D)"," (D)"," (D)"," (D)"," (D)",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","SULFENTRAZONE = 129081","200","0.215","0.22","1","71",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","TERBACIL = 12701"," (D)"," (D)"," (D)"," (D)"," (D)",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2006,"WASHINGTON","TOTAL","700",NA,NA,NA,"88",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2010,"CALIFORNIA","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","CYCLOHEXENE = 79701"," (D)"," (D)"," (D)"," (D)"," (D)",79701,1,0,1,1,1,1,"H225 (100%): Highly Flammable liquid and vapor [Danger Flammable liquids]
+
+H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H304 (95.2%): May be fatal if swallowed and enters airways [Danger Aspiration hazard]
+
+H311 (39.4%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H411 (57.7%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","FLUMIOXAZIN = 129034","200","0.058","0.069","1.2","8",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","NAPROPAMIDE = 103001","3,400","1.8","1.961","1.1","5",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","OXYFLUORFEN = 111601","400","0.294","0.347","1.2","3",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"CALIFORNIA","TOTAL","4,300",NA,NA,NA,"13",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2010,"FLORIDA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"FLORIDA","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"FLORIDA","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"FLORIDA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"FLORIDA","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2010,"OREGON","CLETHODIM = 121011","100","0.091","0.107","1.2","40",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","CLOPYRALID MONO SALT = 117401"," (D)"," (D)"," (D)"," (D)"," (D)",117401,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","GLYPHOSATE POT. SALT = 103613"," (D)"," (D)"," (D)"," (D)"," (D)",103613,0,0,1,0,0,0,"H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","SETHOXYDIM = 121001"," (D)"," (D)"," (D)"," (D)"," (D)",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","SIMAZINE = 80807","300","1.067","1.138","1.1","13",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","SULFENTRAZONE = 129081","400","0.239","0.286","1.2","59",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"OREGON","TOTAL","2,200",NA,NA,NA,"79",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2010,"WASHINGTON","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","CLOPYRALID MONO SALT = 117401"," (D)"," (D)"," (D)"," (D)"," (D)",117401,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","FLUAZIFOP-P-BUTYL = 122809"," (D)"," (D)"," (D)"," (D)"," (D)",122809,0,0,1,0,1,0,"H361d ***: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","NAPROPAMIDE = 103001","1,600","2.122","4.004","1.9","26",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","ORYZALIN = 104201"," (D)"," (D)"," (D)"," (D)"," (D)",104201,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","SETHOXYDIM = 121001"," (D)"," (D)"," (D)"," (D)"," (D)",121001,0,0,1,0,0,0,"H411 (25%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","SIMAZINE = 80807","600","0.977","1.065","1.1","37",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","SULFENTRAZONE = 129081","200","0.214","0.242","1.1","66",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2010,"WASHINGTON","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2014,"CALIFORNIA","CARFENTRAZONE-ETHYL = 128712"," (D)"," (D)"," (D)"," (D)"," (D)",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"CALIFORNIA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"CALIFORNIA","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"CALIFORNIA","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2014,"FLORIDA","CARFENTRAZONE-ETHYL = 128712"," (D)"," (D)"," (D)"," (D)"," (D)",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"FLORIDA","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"FLORIDA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"FLORIDA","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2014,"OREGON","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","CLOPYRALID MONO SALT = 117401"," (D)"," (D)"," (D)"," (D)"," (D)",117401,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","FLUMIOXAZIN = 129034","100","0.096","0.096","1","54",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","SIMAZINE = 80807"," (D)"," (D)"," (D)"," (D)"," (D)",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","SULFENTRAZONE = 129081"," (D)"," (D)"," (D)"," (D)"," (D)",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","TERBACIL = 12701"," (D)"," (D)"," (D)"," (D)"," (D)",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"OREGON","TOTAL","1,300",NA,NA,NA,"71",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2014,"WASHINGTON","CLOPYRALID MONO SALT = 117401"," (D)"," (D)"," (D)"," (D)"," (D)",117401,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","SIMAZINE = 80807"," (D)"," (D)"," (D)"," (D)"," (D)",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","SULFENTRAZONE = 129081"," (D)"," (D)"," (D)"," (D)"," (D)",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2014,"WASHINGTON","TOTAL","5,600",NA,NA,NA,"83",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2016,"CALIFORNIA","AMMONIUM PELARGONATE = 31802"," (D)"," (D)"," (D)"," (D)"," (D)",31802,0,0,0,0,0,1,"H315: Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"CALIFORNIA","FLUMIOXAZIN = 129034","500","0.091","0.116","1.3","12",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"CALIFORNIA","OXYFLUORFEN = 111601","3,000","0.467","0.535","1.1","15",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"CALIFORNIA","PENDIMETHALIN = 108501","15,600","1.382","2.268","1.6","18",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"CALIFORNIA","SULFENTRAZONE = 129081"," (D)"," (D)"," (D)"," (D)"," (D)",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"CALIFORNIA","TOTAL","19,600",NA,NA,NA,"22",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2016,"FLORIDA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"FLORIDA","HALOSULFURON-METHYL = 128721"," (D)"," (D)"," (D)"," (D)"," (D)",128721,0,0,1,0,1,0,"H360D: May damage the unborn child [Danger Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"FLORIDA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"FLORIDA","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2016,"OREGON","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","CLOPYRALID MONO SALT = 117401"," (D)"," (D)"," (D)"," (D)"," (D)",117401,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","SIMAZINE = 80807"," (D)"," (D)"," (D)"," (D)"," (D)",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","SULFENTRAZONE = 129081"," (D)"," (D)"," (D)"," (D)"," (D)",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","TERBACIL = 12701"," (D)"," (D)"," (D)"," (D)"," (D)",12701,0,0,1,0,0,1,"H302 (65.5%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H400 (16.7%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (16.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H412 (33.3%): Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"OREGON","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2016,"WASHINGTON","CLOMAZONE = 125401"," (D)"," (D)"," (D)"," (D)"," (D)",125401,0,0,1,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","CLOPYRALID MONO SALT = 117401"," (D)"," (D)"," (D)"," (D)"," (D)",117401,0,0,1,0,0,1,"H317 (96.1%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H400 (96.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (96.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","PENDIMETHALIN = 108501"," (D)"," (D)"," (D)"," (D)"," (D)",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","SIMAZINE = 80807"," (D)"," (D)"," (D)"," (D)"," (D)",80807,0,0,1,0,1,0,"H351: Suspected of causing cancer [Warning Carcinogenicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","SULFENTRAZONE = 129081"," (Z)","0.228","0.305","1.3","14",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2016,"WASHINGTON","TOTAL","1,100",NA,NA,NA,"60",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2018,"CALIFORNIA","FLUMIOXAZIN = 129034","100","0.096","0.105","1.1","4",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","GLYPHOSATE POT. SALT = 103613"," (D)"," (D)"," (D)"," (D)"," (D)",103613,0,0,1,0,0,0,"H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","OXYFLUORFEN = 111601","800","0.353","0.355","1","6",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","PENDIMETHALIN = 108501","2,700","1.364","1.944","1.4","4",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","SULFENTRAZONE = 129081"," (D)"," (D)"," (D)"," (D)"," (D)",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"CALIFORNIA","TOTAL","7,200",NA,NA,NA,"7",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2018,"FLORIDA","CARFENTRAZONE-ETHYL = 128712"," (D)"," (D)"," (D)"," (D)"," (D)",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"FLORIDA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"FLORIDA","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"FLORIDA","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"FLORIDA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2018,"FLORIDA","TOTAL"," (D)",NA,NA,NA," (D)",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2019,"CALIFORNIA","CARFENTRAZONE-ETHYL = 128712","200","0.024","0.074","3","6",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","FLUMIOXAZIN = 129034","1,100","0.089","0.217","2.4","14",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","GLUFOSINATE-AMMONIUM = 128850"," (D)"," (D)"," (D)"," (D)"," (D)",128850,0,0,0,0,1,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312: Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H360Fd: May damage fertility; Suspected of damaging the unborn child [Danger Reproductive toxicity]
+
+H373 **: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+"SURVEY",2019,"CALIFORNIA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","GLYPHOSATE POT. SALT = 103613"," (D)"," (D)"," (D)"," (D)"," (D)",103613,0,0,1,0,0,0,"H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","OXYFLUORFEN = 111601","1,300","0.313","0.428","1.4","9",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","PENDIMETHALIN = 108501","5,500","1.202","1.84","1.5","8",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","SULFENTRAZONE = 129081"," (D)"," (D)"," (D)"," (D)"," (D)",129081,0,0,1,0,1,1,"H319 (40.6%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (58%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H373 (43.5%): May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]
+
+H411 (43.5%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"CALIFORNIA","TOTAL","10,200",NA,NA,NA,"20",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2019,"FLORIDA","2,4-D, DIMETH. SALT = 30019"," (D)"," (D)"," (D)"," (D)"," (D)",30019,0,1,1,0,0,1,"H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312 (18.6%): Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H317 (100%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318 (100%): Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H332 (18.6%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H410 (35.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H411 (64.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"FLORIDA","2,4-D, TRIISO. SALT = 30035"," (D)"," (D)"," (D)"," (D)"," (D)",30035,0,1,1,0,0,1,"H302 (72.8%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317 (72.8%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318 (72.8%): Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H411 (72.8%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"FLORIDA","GLYPHOSATE POT. SALT = 103613"," (D)"," (D)"," (D)"," (D)"," (D)",103613,0,0,1,0,0,0,"H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"FLORIDA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2019,"FLORIDA","TOTAL","300",NA,NA,NA,"15",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2021,"CALIFORNIA","CARFENTRAZONE-ETHYL = 128712"," (D)"," (D)"," (D)"," (D)"," (D)",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","FLUMIOXAZIN = 129034","500","0.084","0.099","1.2","12",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","GLYPHOSATE POT. SALT = 103613"," (D)"," (D)"," (D)"," (D)"," (D)",103613,0,0,1,0,0,0,"H411 (100%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","NAPROPAMIDE = 103001"," (D)"," (D)"," (D)"," (D)"," (D)",103001,0,0,1,0,0,1,"H319 (83.3%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H411 (83.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","OXYFLUORFEN = 111601","1,700","0.301","0.388","1.3","11",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","PENDIMETHALIN = 108501","10,800","1.327","1.357","1","20",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"CALIFORNIA","TOTAL","16,900",NA,NA,NA,"27",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2021,"FLORIDA","CARFENTRAZONE-ETHYL = 128712"," (D)"," (D)"," (D)"," (D)"," (D)",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","COPPER ETHANOLAMINE = 24409"," (D)"," (D)"," (D)"," (D)"," (D)",24409,0,1,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312: Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H314: Causes severe skin burns and eye damage [Danger Skin corrosion/irritation]
+
+H332: Harmful if inhaled [Warning Acute toxicity, inhalation]"
+"SURVEY",2021,"FLORIDA","DIMETHENAMID = 129051"," (D)"," (D)"," (D)"," (D)"," (D)",129051,0,0,1,0,0,1,"H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317 (71.2%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H332 (71.2%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H400 (71.2%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (71.2%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H411 (26.7%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","FLUROXYPYR 1-MHE = 128968"," (D)"," (D)"," (D)"," (D)"," (D)",128968,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","HALOSULFURON-METHYL = 128721"," (D)"," (D)"," (D)"," (D)"," (D)",128721,0,0,1,0,1,0,"H360D: May damage the unborn child [Danger Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","KANTOR = 129108"," (D)"," (D)"," (D)"," (D)"," (D)",129108,0,0,1,0,0,0,"H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2021,"FLORIDA","TOTAL","2,600",NA,NA,NA,"9",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2023,"CALIFORNIA","CARFENTRAZONE-ETHYL = 128712"," (D)"," (D)"," (D)"," (D)"," (D)",128712,0,0,1,0,0,0,"H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"CALIFORNIA","FLUMIOXAZIN = 129034","3,900","0.078","0.315","4.1","29",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"CALIFORNIA","OXYFLUORFEN = 111601"," (D)"," (D)"," (D)"," (D)"," (D)",111601,0,0,1,0,0,0,"H400 (98.1%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (98.1%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"CALIFORNIA","PENDIMETHALIN = 108501","71,400","0.923","5.892","6.4","28",108501,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"CALIFORNIA","TOTAL","89,700",NA,NA,NA,"29",NA,NA,NA,NA,NA,NA,NA,NA
+"SURVEY",2023,"FLORIDA","2,4-D, DIMETH. SALT = 30019"," (D)"," (D)"," (D)"," (D)"," (D)",30019,0,1,1,0,0,1,"H302 (100%): Harmful if swallowed [Warning Acute toxicity, oral]
+
+H312 (18.6%): Harmful in contact with skin [Warning Acute toxicity, dermal]
+
+H317 (100%): May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H318 (100%): Causes serious eye damage [Danger Serious eye damage/eye irritation]
+
+H332 (18.6%): Harmful if inhaled [Warning Acute toxicity, inhalation]
+
+H410 (35.7%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]
+
+H411 (64.3%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","CLETHODIM = 121011"," (D)"," (D)"," (D)"," (D)"," (D)",121011,0,0,0,0,0,1,"H302: Harmful if swallowed [Warning Acute toxicity, oral]
+
+H317: May cause an allergic skin reaction [Warning Sensitization, Skin]
+
+H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","FLUMIOXAZIN = 129034"," (D)"," (D)"," (D)"," (D)"," (D)",129034,0,0,1,0,1,0,"H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]
+
+H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","GLYPHOSATE ISO. SALT = 103601"," (D)"," (D)"," (D)"," (D)"," (D)",103601,0,0,1,0,0,0,"H411 (98.9%): Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","METSULFURON-METHYL = 122010"," (D)"," (D)"," (D)"," (D)"," (D)",122010,0,0,1,0,0,0,"H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","PARAQUAT = 61601"," (D)"," (D)"," (D)"," (D)"," (D)",61601,1,1,1,0,1,0,"H290 (100%): May be corrosive to metals [Warning Corrosive to Metals]
+
+H301+H311 (100%): Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]
+
+H301 (100%): Toxic if swallowed [Danger Acute toxicity, oral]
+
+H311 (100%): Toxic in contact with skin [Danger Acute toxicity, dermal]
+
+H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H330 (100%): Fatal if inhaled [Danger Acute toxicity, inhalation]
+
+H335 (100%): May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]
+
+H372 (100%): Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]
+
+H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","PENOXSULAM = 119031"," (D)"," (D)"," (D)"," (D)"," (D)",119031,0,0,1,0,0,0,"H400 (100%): Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]
+
+H410 (100%): Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+"SURVEY",2023,"FLORIDA","S-METOLACHLOR = 108800"," (D)"," (D)"," (D)"," (D)"," (D)",108800,0,0,0,0,0,1,"H315 (100%): Causes skin irritation [Warning Skin corrosion/irritation]
+
+H319 (100%): Causes serious eye irritation [Warning Serious eye damage/eye irritation]
+
+H332 (100%): Harmful if inhaled [Warning Acute toxicity, inhalation]"
+"SURVEY",2023,"FLORIDA","TOTAL","9,900",NA,NA,NA,"26",NA,NA,NA,NA,NA,NA,NA,NA

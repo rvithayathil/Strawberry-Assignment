@@ -1,0 +1,302 @@
+---
+title: "Herbicide Usage in Strawberry Production"
+author: "Shuxin Qian, Rebecca Vithayathil, Bihong Wang"
+format:
+  html:
+    self-contained: true
+    fig-format: png     
+    embed-resources: true
+editor: visual
+---
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+library(tidyverse)
+library(slider)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+```
+
+# Introduction
+
+This project aims to examine the use of herbicides across different U.S. states and their regional distribution patterns. The goal is to identify regional patterns and differences in herbicide application practices, and to explore the relationship between farming type and agricultural land use.
+
+Using data collected from sources such as the USDA, we identified several directions to explore correlations. In terms of regional variation, the use of herbicides differs in application methods and intensity across different areas. These comparisons allow us to investigate underlying factors such as environmental conditions and the degree of impact on strawberry cultivation.
+
+In addition, there are distinct effects between organic and conventional pesticide options. By combining information on land use and farm types, we can further analyze the potential for reducing dependence on herbicides.
+
+Through a systematic analysis of these dimensions, this project not only enhances our understanding of herbicide usage in U.S. agricultural production but also provides valuable insights for future environmental regulation, pesticide management, and sustainable farming practices.
+
+![](https://grist.org/wp-content/uploads/2010/06/strawberrypoison.jpg?quality=75&strip=all){alt="Poison Strawberry" style="display:block;margin:auto;"}
+
+# Data Overview
+
+This dataset records herbicide usage in strawberry cultivation across different U.S. states and years.Each row represents the application of a specific herbicide in a given state and year. The data include the total amount of herbicide applied and the proportion of treated area. By matching herbicide IDs, we also obtained the corresponding toxicity indicator data.
+
+The toxicity indicators cover various potential hazard categories, such as environmental toxicity, health hazards, and irritancy. These variables allow for an integrated analysis of both the intensity of chemical use and the potential risk levels associated with strawberry cultivation.
+
+## Raw data
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+tox_raw <- read_csv("https://raw.githubusercontent.com/rvithayathil/Strawberry-Assignment/refs/heads/Data/USDA_Herbicide_Raw_Data.csv")
+
+tox_raw_preview <- tox_raw %>% head(5)
+
+tox_raw_preview %>%
+  kable(format = "html", caption = "Table 1. Raw Toxicity Data Preview (First 5 Rows)") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = FALSE, font_size = 13)
+
+```
+
+Table 1 presents the raw dataset directly obtained from the USDA database. As shown, the data contain over 2,000 observations, but a large number of missing values (NA) exist across several columns. In addition, certain variables are irrelevant to our analysis and need to be removed. Therefore, data cleaning and integration are necessary before conducting any further statistical modeling or visualization.\
+
+We first organized the data set downloaded directly from the USDA website by removing columns that contained only a single unique value. This step eliminates meaningless constants and keeps only variables that provide useful distinctions. Next, we cleaned and standardized several data names, and created new variables to facilitate later comparisons. We then grouped the large and complex dataset so that for each state, each year, and each type of herbicide, only one representative value was retained. Finally, we transformed the cleaned data into a structured table format, making it easier to review and to use in subsequent coding and analysis.
+
+## Data Cleaning
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+df <- read_csv("strawberry_with_toxicity.csv")
+
+summary_table <- df %>%
+  select(Year, State, Domain.Category,
+         `APPLICATIONS, MEASURED IN LB`,
+         `Acute Toxic`, Corrosive,
+         `Environmental Hazard`,
+         `Health Hazard`, Irritant) %>%
+  drop_na() %>%      
+  head(5)            
+
+summary_table %>%
+  kable(format = "html", caption = "Table 2. Final data") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+                full_width = FALSE, font_size = 13)
+
+```
+
+We first organized the data set downloaded directly from the website by removing columns that contained only a single unique value. This step eliminates meaningless constants and keeps only variables that provide useful distinctions.
+
+Next, we cleaned and standardized several data names, and created new variables to facilitate later comparisons. We then grouped the large and complex dataset so that for each state, each year, and each type of herbicide, only one representative value was retained. We transformed the cleaned data into a structured table format, making it easier to review and to use in subsequent coding and analysis.
+
+Due to the large number of missing values in the USDA dataset, we determined that additional data were needed.We found that PubChem, an open chemical information database, provides detailed compound-level records, including toxicity classifications.
+
+First we attempted to scrape the PubChem website search function so that we could import toxicity information that way. After we weren't able to achieve this we decided to search the website ourselves and copy the information into a shared sheet since we only had 38 chemicals to search. This was a more accurate approach as well as there were inconsistencies between naming and IDs in the USDA website and the PubChem website.
+
+After completing the sheet we saw that there were 6 unique Toxicity categories for our herbicides. We then reformatted the toxicity data so that there were 6 binary columns (one for each toxicity category). You can check our Data branch to get code and detail information as well as our .
+
+# Exploratory Data Analysis
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+parse_num <- function(x) readr::parse_number(as.character(x))
+
+theme_set(theme_minimal(base_size = 12))
+```
+
+### 1) Herbicide Coverage Over Time
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+
+# Load required libraries
+library(tidyverse)
+library(ggplot2)
+library(viridis)
+library(scales)
+library(maps)
+library(patchwork)
+
+# Read the data
+strawberry_tox <- read.csv("strawberry_with_toxicity.csv")
+
+# Data preparation
+strawberry_tox <- strawberry_tox %>%
+  mutate(
+    Year = as.numeric(Year),
+    Total_Hazards = rowSums(select(., Acute.Toxic, Corrosive, Environmental.Hazard, 
+                                    Flammable, Health.Hazard, Irritant), na.rm = TRUE)
+  )
+
+# Remove TOTAL rows for cleaner analysis
+strawberry_clean <- strawberry_tox %>%
+  filter(Domain.Category != "TOTAL")
+yearly_usage <- strawberry_clean %>%
+  mutate(LBS = as.numeric(gsub(",", "", APPLICATIONS..MEASURED.IN.LB))) %>%
+  filter(!is.na(LBS)) %>%
+  group_by(Year, State) %>%
+  summarise(Total_LBS = sum(LBS, na.rm = TRUE), .groups = "drop")
+
+p2 <- ggplot(yearly_usage, aes(x = Year, y = Total_LBS, color = State)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  scale_y_continuous(labels = comma) +
+  scale_x_continuous(breaks = seq(1990, 2025, 2)) +
+  labs(title = "Herbicide Usage Trends by State (1990-2023)",
+       x = "Year",
+       y = "Total Pounds Applied",
+       color = "State") +
+  theme_minimal() +
+  theme(legend.position = "right",
+        plot.title = element_text(face = "bold", size = 14),
+        axis.text.x = element_text(angle = 45, hjust = 1))
+
+print(p2)
+```
+
+Our variables include year, state, and herbicide coverage rate.Each color in the figure represents a different state, and the upward or downward slope of the lines indicates the change in herbicide usage in pounds over time. Oregon shows a clear downward trend, suggesting a decrease in herbicide usage over time. California shows clearly upward trend in usage.
+
+### 2) Average Toxicity by state
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+df <- read_csv("strawberry_with_toxicity.csv")
+toxicity_cols <- c("Acute Toxic", "Corrosive", "Environmental Hazard", 
+                   "Flammable", "Health Hazard", "Irritant")
+
+df <- df %>%
+  mutate(across(all_of(toxicity_cols), as.numeric)) %>%
+  group_by(State) %>%
+  summarise(across(all_of(toxicity_cols), mean, na.rm = TRUE)) %>%
+  pivot_longer(cols = toxicity_cols, names_to = "ToxicityType", values_to = "Value")
+
+ggplot(df, aes(x = State, y = Value, fill = ToxicityType)) +
+  geom_col(position = "dodge") +
+  labs(title = "Average Toxicity Scores by State",
+       x = "State", y = "Average Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+This figure illustrates the average toxicity levels of herbicides across states, based on six toxicity indicators: Acute Toxicity, Corrosive, Environmental Hazard, Flammable, Health Hazard, and Irritant. Each color represents a toxicity category, and the height of each bar indicates the mean score for that category within each state.
+
+Overall, most states exhibit low to moderate levels of toxicity. However, there are marked differences among the six toxicity types: Environmental Hazard and Corrosive scores are higher in several states, suggesting potential ecological and material risks, whereas Flammable and Health Hazard remain consistently low across all regions.
+
+These findings indicate that, although the intensity of herbicide use varies by state, the distribution of toxicity profiles is not uniform, reflecting differences in herbicide selection and agricultural practices across regions.
+
+### 3) Average herbicide toxicity vs Coverage Rate
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+
+df <- read_csv("strawberry_with_toxicity.csv")
+df_clean <- df %>%
+  mutate(
+    across(c("Acute Toxic", "Corrosive", "Environmental Hazard", 
+             "Flammable", "Health Hazard", "Irritant"), as.numeric),
+    `APPLICATIONS, MEASURED IN LB` = as.numeric(gsub(",", "", `APPLICATIONS, MEASURED IN LB`)),
+    `TREATED, MEASURED IN PCT OF AREA BEARING, AVG` = as.numeric(`TREATED, MEASURED IN PCT OF AREA BEARING, AVG`)
+  ) %>%
+  group_by(State) %>%
+  summarise(
+    avg_toxicity = mean(c(`Acute Toxic`, Corrosive, `Environmental Hazard`,
+                          Flammable, `Health Hazard`, Irritant), na.rm = TRUE),
+    avg_coverage = mean(`TREATED, MEASURED IN PCT OF AREA BEARING, AVG`, na.rm = TRUE),
+    total_use_lb = sum(`APPLICATIONS, MEASURED IN LB`, na.rm = TRUE)
+  ) %>%
+  drop_na()
+
+
+ggplot(df_clean, aes(x = avg_toxicity, y = avg_coverage,
+                     size = total_use_lb, color = State)) +
+  geom_point(alpha = 0.7) +
+  scale_size_continuous(name = "Total Herbicide Use (lb)", range = c(3, 15)) +
+  labs(
+    title = "Relationship Between Herbicide Toxicity and Coverage by State",
+    subtitle = "Bubble size represents total herbicide use; color represents state",
+    x = "Average Toxicity Score",
+    y = "Average Coverage Rate (% of Area Bearing)"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "right")
+```
+
+This bubble chart illustrates the relationship between average herbicide toxicity and coverage rate across states.Each bubble represents a state:
+
+The x-axis shows the average toxicity score;
+
+The y-axis shows the average coverage rate (% of area bearing);
+
+The bubble size indicates the total amount of herbicide used;
+
+The color distinguishes different states.
+
+Overall, most states cluster around the region of moderate toxicity and moderate coverage, suggesting that herbicide usage is relatively balanced nationwide. However, several clear differences can be observed:
+
+States with high toxicity and high coverage (upper-right quadrant) indicate intensive chemical application and higher potential environmental risks. These regions often have larger strawberry production scales and may rely less on low-toxicity alternatives.
+
+States with low toxicity but high coverage likely use safer chemical compositions, reflecting more advanced pesticide management practices or stronger regulatory oversight.
+
+States with low toxicity and low coverage (lower-left quadrant) typically have smaller strawberry cultivation areas or a higher proportion of organic farming.
+
+The bubble sizes further reveal differences in total herbicide usage across states: even when toxicity levels are similar, the total amount of herbicide applied varies substantially among states.
+
+### 4) Toxicity
+
+```{r,warning=FALSE,message=FALSE}
+#| echo: false
+
+library(viridis)
+library(tidyverse)
+
+df <- read_csv("strawberry_with_toxicity.csv")
+hazard_summary <- df %>%
+  summarise(
+    `Acute Toxic` = sum(`Acute Toxic`, na.rm = TRUE),
+    Corrosive = sum(Corrosive, na.rm = TRUE),
+    `Environmental Hazard` = sum(`Environmental Hazard`, na.rm = TRUE),
+    Flammable = sum(Flammable, na.rm = TRUE),
+    `Health Hazard` = sum(`Health Hazard`, na.rm = TRUE),
+    Irritant = sum(Irritant, na.rm = TRUE)
+  ) %>%
+  pivot_longer(everything(), names_to = "Hazard", values_to = "Count") %>%
+  mutate(Percentage = (Count / sum(Count)) * 100) %>%
+  arrange(desc(Percentage))
+p4 <- ggplot(hazard_summary, aes(x = reorder(Hazard, Percentage), y = Percentage, fill = Hazard)) +
+  geom_col(show.legend = FALSE) +
+  geom_text(aes(label = paste0(round(Percentage, 1), "%")), hjust = -0.2, size = 4, fontface = "bold") +
+  coord_flip() +
+  scale_fill_brewer(palette = "Set2") +
+  scale_y_continuous(labels = function(x) paste0(x, "%"), limits = c(0, max(hazard_summary$Percentage) * 1.1)) +
+  labs(title = "Distribution of Hazard Types Across All Herbicide Applications",
+       subtitle = "Percentage of total hazard occurrences",
+       x = "Hazard Type",
+       y = "Percentage of Occurrences") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", size = 14),
+        panel.grid.major.y = element_blank())
+
+print(p4)
+
+
+
+
+```
+
+The bar chart illustrates the distribution of different hazard types associated with all herbicides, expressed as the percentage of total hazard occurrences. It is evident that Environmental Hazard is the most prevalent type, accounting for 43.2% of all occurrences. This indicates that herbicide use poses significant risks to ecosystems, potentially contaminating soil, water, and affecting non-target species.
+
+The second most common category is Irritant, representing 23.9%, suggesting frequent risks of skin or eye irritation for individuals handling these substances. Health Hazards (16.2%) also represent a considerable portion, implying possible long-term or systemic health effects from exposure.
+
+# Summary
+
+This project integrated herbicide application data from the USDA and incorporated toxicity information from PubChem to systematically analyze the patterns of herbicide use, and potential risks in U.S. strawberry production. The results show that although the overall coverage rate remains moderate, there are clear differences across states in both usage intensity and toxicity composition. For example, California demonstrates a rising trend in herbicide coverage and higher toxicity levels, while Florida shows a decreasing trend and relatively lower potential risks. Despite variations in state-level practices, herbicides continue to exert the greatest environmental impact among agricultural chemicals.
+
+Beyond data analysis, this project also provided valuable experience in collaborative work using GitHub, data collection and cleaning, and creative data generation when facing incomplete datasets. It further strengthened skills in visualization, interpretation, and reproducible research, all of which are essential for effective communication in data-driven environmental studies.
+
+## Citation
+
+<https://quickstats.nass.usda.gov/> - Farming and usage information by state and year
+
+<https://pubchem.ncbi.nlm.nih.gov/#query=108800> - Toxicity information by herbicide
+
+<https://www.epa.gov/newsreleases/epa-issues-emergency-order-stop-use-pesticide-dacthal-address-serious-health-risk-4> - Herbicide DPCA was no longer in the PubChem database likely because it has been banned. Use this source for toxicity information.
