@@ -22,6 +22,8 @@ Filtered observations where Domain contained "HERB".
 
 Combined Domain and Domain.Category into one field for easier filtering.
 
+Searching for information about data of herbicide toxicity.
+
 Combined with the data set of herbicide toxicity information.
 
 Saved cleaned data as strawberry_with_toxicity.csv.
