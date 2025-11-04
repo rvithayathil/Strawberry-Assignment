@@ -1,5 +1,5 @@
 ---
-title: "Strawberry"
+title: "Herbicide Usage in Strawberry Production"
 author: "Shuxin Qian, Rebecca Vithayathil, Bihong Wang"
 format:
   html:
@@ -27,7 +27,7 @@ In addition, there are distinct effects between organic and conventional pestici
 
 Through a systematic analysis of these dimensions, this project not only enhances our understanding of herbicide usage in U.S. agricultural production but also provides valuable insights for future environmental regulation, pesticide management, and sustainable farming practices.
 
-<img src="strawberry.png" alt="Poison Strawberry" width="400px" style="display:block;margin:auto;"/>
+![](https://grist.org/wp-content/uploads/2010/06/strawberrypoison.jpg?quality=75&strip=all){alt="Poison Strawberry" style="display:block;margin:auto;"}
 
 # Data Overview
 
@@ -92,7 +92,7 @@ Due to the large number of missing values in the USDA dataset, we determined tha
 
 First we attempted to scrape the PubChem website search function so that we could import toxicity information that way. After we weren't able to achieve this we decided to search the website ourselves and copy the information into a shared sheet since we only had 38 chemicals to search. This was a more accurate approach as well as there were inconsistencies between naming and IDs in the USDA website and the PubChem website.
 
-After completing the sheet we saw that there were 6 unique Toxicity categories for our herbicides. We then reformatted the toxicity data so that there were 6 binary columns (one for each toxicity category). You can check our Data branch to get code and detail information.
+After completing the sheet we saw that there were 6 unique Toxicity categories for our herbicides. We then reformatted the toxicity data so that there were 6 binary columns (one for each toxicity category). You can check our Data branch to get code and detail information as well as our .
 
 # Exploratory Data Analysis
 
@@ -107,32 +107,53 @@ theme_set(theme_minimal(base_size = 12))
 
 ```{r,warning=FALSE,message=FALSE}
 #| echo: false
+
+# Load required libraries
 library(tidyverse)
+library(ggplot2)
+library(viridis)
+library(scales)
+library(maps)
+library(patchwork)
 
-df <- df %>%
-  mutate(`TREATED, MEASURED IN PCT OF AREA BEARING, AVG` =
-           as.numeric(gsub(",", "", `TREATED, MEASURED IN PCT OF AREA BEARING, AVG`))) %>%
-  filter(str_detect(`Domain.Category`, "TOTAL", negate = FALSE))
+# Read the data
+strawberry_tox <- read.csv("strawberry_with_toxicity.csv")
 
-ggplot(df, aes(x = Year, 
-               y = `TREATED, MEASURED IN PCT OF AREA BEARING, AVG`, 
-               color = State, group = State)) +
-  geom_line(linewidth = 1) +
+# Data preparation
+strawberry_tox <- strawberry_tox %>%
+  mutate(
+    Year = as.numeric(Year),
+    Total_Hazards = rowSums(select(., Acute.Toxic, Corrosive, Environmental.Hazard, 
+                                    Flammable, Health.Hazard, Irritant), na.rm = TRUE)
+  )
+
+# Remove TOTAL rows for cleaner analysis
+strawberry_clean <- strawberry_tox %>%
+  filter(Domain.Category != "TOTAL")
+yearly_usage <- strawberry_clean %>%
+  mutate(LBS = as.numeric(gsub(",", "", APPLICATIONS..MEASURED.IN.LB))) %>%
+  filter(!is.na(LBS)) %>%
+  group_by(Year, State) %>%
+  summarise(Total_LBS = sum(LBS, na.rm = TRUE), .groups = "drop")
+
+p2 <- ggplot(yearly_usage, aes(x = Year, y = Total_LBS, color = State)) +
+  geom_line(size = 1) +
   geom_point(size = 2) +
-  labs(
-    title = "Herbicide Coverage Rate by State Over Time",
-    subtitle = "Each color represents a different state. Upward slopes indicate increasing herbicide coverage over time.",
-    x = "Year",
-    y = "Coverage Rate (% of Area Bearing)",
-    color = "State"
-  ) +
-  theme_minimal(base_size = 13) +
+  scale_y_continuous(labels = comma) +
+  scale_x_continuous(breaks = seq(1990, 2025, 2)) +
+  labs(title = "Herbicide Usage Trends by State (1990-2023)",
+       x = "Year",
+       y = "Total Pounds Applied",
+       color = "State") +
+  theme_minimal() +
   theme(legend.position = "right",
-        plot.title = element_text(face = "bold"))
+        plot.title = element_text(face = "bold", size = 14),
+        axis.text.x = element_text(angle = 45, hjust = 1))
 
+print(p2)
 ```
 
-Our variables include year, state, and herbicide coverage rate.Each color in the figure represents a different state, and the upward or downward slope of the lines indicates the change in herbicide coverage over time.Florida shows a clear downward trend, suggesting a decrease in herbicide usage over time. California shows clearly upward trend in coverage.
+Our variables include year, state, and herbicide coverage rate.Each color in the figure represents a different state, and the upward or downward slope of the lines indicates the change in herbicide usage in pounds over time. Oregon shows a clear downward trend, suggesting a decrease in herbicide usage over time. California shows clearly upward trend in usage.
 
 ### 2) Average Toxicity by state
 
@@ -274,6 +295,8 @@ Beyond data analysis, this project also provided valuable experience in collabor
 
 ## Citation
 
-<https://quickstats.nass.usda.gov/>
+<https://quickstats.nass.usda.gov/> - Farming and usage information by state and year
 
-<https://pubchem.ncbi.nlm.nih.gov/#query=108800>
+<https://pubchem.ncbi.nlm.nih.gov/#query=108800> - Toxicity information by herbicide
+
+<https://www.epa.gov/newsreleases/epa-issues-emergency-order-stop-use-pesticide-dacthal-address-serious-health-risk-4> - Herbicide DPCA was no longer in the PubChem database likely because it has been banned. Use this source for toxicity information.
