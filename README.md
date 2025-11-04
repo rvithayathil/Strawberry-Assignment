@@ -24,18 +24,26 @@ Combined Domain and Domain.Category into one field for easier filtering.
 
 Removed missing or suppressed values (e.g., (NA), (D), (L)).
 
-Saved cleaned data as USDA_Herbicide_Data.csv.
+Saved cleaned data as strawberry_with_toxicity.csv.
 
 Key Variables:
 
 | Variable | Description |
 |----|----|
 | **Program** | The USDA data collection program (e.g., “CENSUS”, “SURVEY”). |
-| **Year** | The year in which the data were collected. |
-| **State** | The U.S. state where data were collected. |
-| **Domain** | Production type and category (e.g., “ORGANIC: HERBICIDE”, “CONVENTIONAL: HERBICIDE”). |
-| **APPLICATIONS, MEASURED IN LB** | Total amount of herbicide applied, measured in pounds. |
-| **APPLICATIONS, MEASURED IN LB / ACRE / APPLICATION, AVG** | Average herbicide amount per acre per application. |
-| **APPLICATIONS, MEASURED IN LB / ACRE / YEAR, AVG** | Average herbicide amount per acre per year. |
-| **APPLICATIONS, MEASURED IN NUMBER, AVG** | Average number of herbicide applications. |
-| **TREATED, MEASURED IN PCT OF AREA BEARING, AVG** | Average percentage of the bearing (fruiting) area treated with herbicides. |
+| **Year** | The years in which the data were collected. |
+| **State** | The U.S. states where data were collected. |
+| **Domain.Category** | Production type and category (e.g., “ORGANIC: HERBICIDE”, “CONVENTIONAL: HERBICIDE”). |
+| **APPLICATIONS..MEASURED.IN.LB** | Total amount of herbicide applied, measured in pounds. |
+| **APPLICATIONS..MEASURED.IN.LB...ACRE...APPLICATION..AVG** | Average herbicide amount per acre per application. |
+| **APPLICATIONS..MEASURED.IN.LB...ACRE...YEAR..AVG** | Average herbicide amount per acre per year. |
+| **APPLICATIONS..MEASURED.IN.NUMBER..AVG** | Average number of herbicide applications. |
+| **TREATED..MEASURED.IN.PCT.OF.AREA.BEARING..AVG** | Average percentage of the bearing (fruiting) area treated with herbicides. |
+| **Herbicide.ID** | Unique identifier for each herbicide used in the dataset. |
+| **Acute.Toxic** | Indicates whether the herbicide is classified as acutely toxic. |
+| **Corrosive** | Indicates whether the herbicide is classified as corrosive. |
+| **Environmental.Hazard** | Indicates whether the herbicide poses environmental hazards. |
+| **Flammable** | Indicates whether the herbicide is classified as flammable. |
+| **Health.Hazard** | Indicates whether the herbicide poses general health hazards. |
+| **Irritant** | Indicates whether the herbicide is classified as an irritant. |
+| **Additional.Info** | Additional information or safety notes related to the herbicide. |
